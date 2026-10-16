@@ -1,6 +1,6 @@
 # How we'll work together on GitHub
 
-Hi everyone! This is our shared project. I'll post our weekly assignments, and we'll each contribute to building the actual simulation.
+This is our shared project. I'll post our weekly assignments, and we'll each contribute to building the actual simulation.
 
 1. Accept the GitHub collaborator invitation and clone this repository (cloning already downloads it).
 2. Before starting an assignment, create your own branch, for example `alex-week1`.
