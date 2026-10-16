@@ -4,7 +4,7 @@
 
 We'll update this file after reviewing each week's work.
 
-## Week 1 — SIR model
+## Week 1: SIR model
 
 **Notebook / contribution:** To be added
 
