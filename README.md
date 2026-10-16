@@ -17,7 +17,7 @@ If we finish the core, we'll try an optional historical COVID-19 comparison and 
 Each week, we have one shared goal. Different people will work on research, code, charts, or testing; we'll rotate these roles so everyone learns. I'll coordinate assignments, review the pull requests, and merge approved work into `main`.
 
 - `assignments/`: Weekly instructions and blank coding exercises (no answers provided)
-- `student_work/`: Our completed contributions, with names and week numbers
+- `our_work/`: Our completed contributions, with names and week numbers
 - `research/`: Sources, parameters, and assumptions
 - `meetings/`: Meeting notes and decisions
 - `CONTRIBUTING.md`: Instructions for branches and pull requests
