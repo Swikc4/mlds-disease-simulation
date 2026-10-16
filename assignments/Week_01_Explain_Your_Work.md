@@ -1,4 +1,4 @@
-# Week 1 — Explain Your Work
+# Week 1: Explain Your Work
 
 **Submit this after finishing your assigned Week 1 task.**
 
@@ -19,30 +19,30 @@ Answer these four questions:
 
 Only answer the questions for the role you take during our first meeting.
 
-### Teammate 1 — SIR explanation
+### Teammate 1: SIR explanation
 - What do susceptible, infected, and recovered mean?
 - What does `S + I + R = population` tell us?
 - What is one assumption that makes our SIR model simpler than real disease outbreaks?
 
-### Teammate 2 — Python simulation
+### Teammate 2: Python simulation
 - What do `beta` and `gamma` control in our teaching model?
 - How does the model update S, I, and R after one day?
 - Why do we repeat the calculations in a loop and save daily values?
 - Which part of the code would you change to simulate more days?
 
-### Teammate 3 — Charts
+### Teammate 3: Charts
 - What does each line on the graph show?
 - What do the horizontal and vertical axes mean?
 - What can a reader learn from the shape of the infected line?
 - Why do titles, labels, and a legend matter?
 
-### Teammate 4 — Testing
+### Teammate 4: Testing
 - How did you check that the total population stays at 100?
 - How did you check that no group becomes negative?
 - What would a failed check tell us about the simulation?
 - Why should we test a model before interpreting its results?
 
-## Writing template — copy and fill in
+## Writing template: copy and fill in
 
 **Name:**  
 **Week:** 1  
