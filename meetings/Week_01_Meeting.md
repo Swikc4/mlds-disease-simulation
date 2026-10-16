@@ -12,11 +12,11 @@ Discuss our research question, the virtual town, research sources, and the overa
 
 **10:40 to 10:50 AM: First assignment**
 
-Introduce SIR and SEIR. Walk through the worked example and explain that the combined starter assignment will take two weeks.
+Introduce SIR and SEIR. Walk through the worked example and explain that our Week 1 assignment introduces both models.
 
 **10:50 to 11:00 AM: Roles and GitHub**
 
-Agree on five teammate responsibilities, confirm everyone's GitHub access, and plan to complete the combined assignment by October 30. Discuss how I'll review pull requests and combine approved work into one final notebook.
+Agree on five teammate responsibilities, confirm everyone's GitHub access, and discuss whether the proposed October 23 deadline is realistic for everyone. Discuss how I'll review pull requests and combine approved work into one final notebook.
 
 ## Our roles for Week 1
 
