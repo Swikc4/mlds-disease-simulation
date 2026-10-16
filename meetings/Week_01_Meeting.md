@@ -33,7 +33,7 @@
 | Teammate 2 | To be decided | |
 | Teammate 3 | To be decided | |
 | Teammate 4 | To be decided | |
-| Me — Project Lead | Coordinate, guide, review and merge | |
+| Me: Project Lead | Coordinate, guide, review and merge | |
 
 ## Questions or problems
 
