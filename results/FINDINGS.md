@@ -1,25 +1,21 @@
-# Our Findings
+# Our findings
 
-**Status:** Not started
+**Status: Not started**
 
-We'll update this file after reviewing each week's work.
+We'll write up our results after the models are completed and checked.
 
-## Week 1: SIR model
+## Week 1: SIR and SEIR
 
-**Notebook / contribution:** To be added
+**Final notebook:** To be added after review
 
-**Graph:** To be added
+**SIR chart:** Not yet completed
 
-**What we observed:** To be completed after running the model
+**SEIR chart:** Not yet completed
 
-**What the results mean:** To be completed
+**What we observed:** To be written after running both models
 
-**Limitations / assumptions:** To be completed
+**What the results mean:** To be written after reviewing the charts
 
----
+**Assumptions and limitations:** To be completed
 
-## Later weeks
-
-We'll add sections as we complete and check our SEIR model, virtual town, disease comparisons, interactive simulation, machine learning, and any optional real-data analysis.
-
-**Reminder:** Simulated results are not real-world outbreak forecasts. We'll distinguish observed public-health data from simulated data.
+We will add new sections as the group progresses. Simulated outbreak curves are not real patient observations.
