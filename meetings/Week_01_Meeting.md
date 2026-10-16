@@ -1,6 +1,6 @@
 # Week 1: Meeting Notes
 
-**Date:** Saturday, October 17, 2026  
+**Date:** Friday, October 16, 2026  
 **Time:** 10:30 to 11:00 AM, New York time  
 **Members present:** To be filled in
 
