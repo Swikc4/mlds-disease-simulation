@@ -11,19 +11,19 @@ Why do some diseases spread much faster than others, and what slows each one dow
 
 ## Why the schedule changed
 
-Our first assignment now includes both SIR and SEIR. We'll work on that assignment over **two weeks**, since everyone is learning and we have six members including me. The original proposal describes more weeks than the time left before the showcase, so this is a proposed compressed schedule. We will confirm roles and deadlines together.
+Our first assignment combines SIR and SEIR into Week 1. The work is divided among five teammates, so we can build the two simple models in parallel. This schedule is a plan, not a promise. We'll check what everyone knows at our first meeting and adjust deadlines if needed.
 
 ## Weekly plan
 
 | Dates | Focus | Deliverable |
 | :--- | :--- | :--- |
-| Oct 17 to 23 | First meeting, GitHub, Python basics, and SIR | Roles confirmed, SIR draft |
-| Oct 24 to 30 | Finish SIR and add SEIR | One integrated SIR and SEIR final notebook |
-| Oct 31 to Nov 6 | Person by person town simulation | One disease prototype, daily counts and tests |
-| Nov 7 to 13 | Measles, flu and COVID 19 research and comparisons | Verified parameter table and comparison charts |
-| Nov 14 to 20 | Interactive sliders and graphs | Working Jupyter demo |
-| Nov 21 to 27 | Generate simulated runs and basic machine learning | Linear regression, decision tree and held out evaluation |
-| Nov 28 to Dec 4 | Connect, test, document and draft presentation | Completed core, findings, updated README |
+| Oct 17 to 23 | First meeting, Python basics, SIR and SEIR | One reviewed SIR and SEIR notebook |
+| Oct 24 to 30 | Build the virtual town | One disease prototype with daily counts |
+| Oct 31 to Nov 6 | Research and compare three diseases | Checked parameter table and comparison charts |
+| Nov 7 to 13 | Add interactive sliders and graphs | Working Jupyter demo |
+| Nov 14 to 20 | Run simulations and add basic machine learning | Linear regression, decision tree, and tests on unseen runs |
+| Nov 21 to 27 | Combine and test the core | Working model, chart reviews and fixes |
+| Nov 28 to Dec 4 | Finish documentation, findings, and optional improvements | Updated README, findings and slides |
 | Dec 5 to 9 | Rehearse and freeze | Final tested presentation and backup demo |
 | Dec 10 | Showcase | Live group presentation |
 
@@ -33,7 +33,7 @@ Five teammates and I will choose roles at the meeting. For the first combined as
 
 ## Working together on GitHub
 
-We will post only the current assignment under `assignments/`. Everyone works on their own branch and submits a pull request. After review, I will combine accepted sections into one final notebook under `our_work/`. GitHub does not automatically combine separate notebooks. We will keep checked findings under `results/` and sources under `research/`.
+We will post only the current assignment under `assignments/`. Everyone works on their own branch and submits a pull request. After review, I will combine accepted sections into one final notebook under `our_work/assignments/`. Teammates' individual writing will go in `our_work/explanations/`. GitHub does not automatically combine separate notebooks. We will keep checked findings under `results/` and sources under `research/`.
 
 ## Research and data
 
@@ -48,7 +48,7 @@ The core is a working interactive simulation for three diseases, reviewed charts
 **October 17, 10:30 to 11:00 AM, New York time**
 
 1. 10:30 to 10:40: Explain the research question and project.
-2. 10:40 to 10:50: Introduce SIR and SEIR and explain the two week starter assignment.
+2. 10:40 to 10:50: Introduce SIR and SEIR and explain the Week 1 assignment covering both models.
 3. 10:50 to 11:00: Discuss interests, choose roles, explain GitHub and agree on deadlines.
 
 We'll update the guide after our meeting as needed.
