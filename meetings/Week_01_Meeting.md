@@ -22,8 +22,8 @@ Agree on five teammate responsibilities, confirm everyone's GitHub access, and d
 
 | Member | Responsibility | Deadline |
 | :--- | :--- | :--- |
-| Teammate 1 | To be decided | |
-| Teammate 2 | To be decided | |
+| Ei Kay | SEIR model | To be confirmed |
+| Jayden | SIR model | To be confirmed |
 | Teammate 3 | To be decided | |
 | Teammate 4 | To be decided | |
 | Teammate 5 | To be decided | |
@@ -31,7 +31,9 @@ Agree on five teammate responsibilities, confirm everyone's GitHub access, and d
 
 ## Decisions
 
-To be filled in after the meeting.
+- Ei Kay will work on the SEIR model.
+- Jayden will work on the SIR model.
+- Remaining responsibilities and deadlines are still to be confirmed.
 
 ## Questions
 
@@ -39,6 +41,6 @@ To be filled in after the meeting.
 
 ## Next steps
 
-Confirm roles, deadlines, and access to the Week 1 assignment.
+Confirm the remaining roles, deadlines, and access to the Week 1 assignment.
 
 **Next meeting:** To be decided.
