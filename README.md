@@ -24,18 +24,9 @@ Each week, we have one shared goal. Different people will work on research, code
 
 Please work on your own branch and open a pull request instead of pushing directly to `main`.
 
-## Sources we already have from our proposal
+## Research sources
 
-- Measles R0 review: https://pmc.ncbi.nlm.nih.gov/articles/PMC6302597/
-- CDC measles clinical overview: https://www.cdc.gov/measles/hcp/clinical-overview/index.html
-- Influenza R0 review: https://stacks.cdc.gov/view/cdc/25291
-- CDC Yellow Book influenza: https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/influenza.html
-- COVID-19 R0 review: https://pmc.ncbi.nlm.nih.gov/articles/PMC8827628/
-- CDC COVID-19 clinical presentation: https://www.cdc.gov/covid/hcp/clinical-care/covid19-presentation.html
-- COVID-19 timing review: https://pmc.ncbi.nlm.nih.gov/articles/PMC10541713/
-- Johns Hopkins historical COVID-19 dataset (optional): https://github.com/CSSEGISandData/COVID-19
-
-These are **starting sources**, not proof that every parameter has been verified. We'll record whether each number is SOURCED, DERIVED, or an ASSUMPTION.
+We already selected the starting CDC articles, research papers, and historical data links in our proposal. See [research/README.md](research/README.md) for the organized list. We'll review them as we reach each part of the project.
 
 ## Our progress
 
