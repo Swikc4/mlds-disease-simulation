@@ -1,7 +1,9 @@
 # Weekly assignments
 
-I'll post our weekly assignment notebooks here. Start with the assignment for the current week and read the instructions before writing code.
+Only our current assignment is posted here.
 
-Please do not edit the original assignment notebook on `main`. Create your own branch, save your completed notebook using your name (for example, `Alex_Week01.ipynb`) in `student_work/`, and open a pull request when you're ready for review.
+Start with [Week 1: Introduction to SIR and SEIR](Week_01_Assignment.ipynb). The notebook contains the lesson, worked examples, hints, five teammate roles, and instructions for submitting work.
 
-We are building the project together, week by week.
+We'll decide who takes each role during the meeting. Each person completes their part and explains how it works. I'll review the pull requests and help combine the approved work into one final notebook in `our_work/`.
+
+We'll post future assignments when we're ready for them.
