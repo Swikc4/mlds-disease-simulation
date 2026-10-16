@@ -4,7 +4,7 @@
 **Status: Planning**  
 **Planned showcase: December 10, 2026**
 
-This is the shared repository for our disease simulation group project. I set it up so we can keep our weekly assignments, research, meeting notes, and contributions in one place. We'll update this README as we go.
+This is our shared group project. We have six members, including me. We have not started building the simulation yet, and we'll update this page as our work progresses.
 
 ## Research question
 
@@ -12,34 +12,35 @@ Why do some diseases spread much faster than others, and what slows each one dow
 
 ## What we plan to build
 
-We want to create a virtual town to explore how diseases spread. We'll begin with SIR and SEIR models, then build a person-by-person simulation for measles, influenza, and COVID-19, add vaccination and isolation sliders, and use simple machine learning to predict outcomes from our simulated runs.
+We will start with the SIR and SEIR models and then build a virtual town to explore how measles, influenza, and COVID 19 spread. Later, we plan to add vaccination and isolation controls, charts, and basic machine learning. If time allows, we'll compare historical observations and try another machine learning model.
 
-If we finish the core, we'll try an optional historical COVID-19 comparison and gradient boosting model. This is an **educational simulation, not a real outbreak forecast**.
+This is an educational simulation, not a medical prediction tool.
 
-## How we'll work as a group
+## How we will work
 
-Each week, we have one shared goal. Different people will work on research, code, charts, or testing; we'll rotate these roles so everyone learns. I'll coordinate assignments, review the pull requests, and merge approved work into `main`.
+Each week, we will divide the work among five teammates, with me coordinating the project, reviewing pull requests, and helping combine the approved work into **one final weekly Jupyter notebook**. Roles will be decided together and rotated as we learn.
 
-- `assignments/`: Weekly instructions and blank coding exercises (no answers provided)
-- `our_work/`: Our completed contributions, with names and week numbers
-- `research/`: Sources, parameters, and assumptions
-- `meetings/`: Meeting notes and decisions
-- `CONTRIBUTING.md`: Instructions for branches and pull requests
+## Where everything goes
 
-Please work on your own branch and open a pull request instead of pushing directly to `main`.
+| Folder or file | What it is for |
+| :--- | :--- |
+| [assignments](assignments/) | The current week's instructions and examples |
+| [our_work](our_work/) | One approved final notebook per week |
+| [research](research/) | Our source links and modeling assumptions |
+| [results](results/) | Findings and graphs we have checked |
+| [meetings](meetings/) | Meeting plans and decisions |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to submit and review work |
 
-## Research sources
+Our original proposal already lists CDC publications, research articles, and historical COVID 19 data. The links are organized in [research/README.md](research/README.md).
 
-We already selected the starting CDC articles, research papers, and historical data links in our proposal. See [research/README.md](research/README.md) for the organized list. We'll review them as we reach each part of the project.
+## Progress
 
-## Our progress
+- [x] Set up GitHub and the Week 1 assignment
+- [ ] Confirm roles and deadlines at our first meeting
+- [ ] Complete SIR and SEIR in Week 1
+- [ ] Build the virtual town
+- [ ] Add the disease comparisons and interactive controls
+- [ ] Train and evaluate the machine learning models
+- [ ] Review our findings and prepare for the showcase
 
-- [x] GitHub repository and folder structure
-- [x] Weekly assignment templates prepared
-- [ ] First team meeting and task assignments
-- [ ] Week 1 SIR model
-- [ ] SEIR and virtual town
-- [ ] Disease comparison, interactive demo, and machine learning
-- [ ] Final review and showcase
-
-We'll update this as our group finishes each part.
+We'll update this list as we finish each part.
