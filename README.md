@@ -6,6 +6,10 @@
 
 This is the shared repository for our disease simulation group project. I set it up so we can keep our weekly assignments, research, meeting notes, and contributions in one place. We'll update this README as we go.
 
+## Research question
+
+Why do some diseases spread much faster than others, and what slows each one down the most?
+
 ## What we plan to build
 
 We want to create a virtual town to explore how diseases spread. We'll begin with SIR and SEIR models, then build a person-by-person simulation for measles, influenza, and COVID-19, add vaccination and isolation sliders, and use simple machine learning to predict outcomes from our simulated runs.
