@@ -1,6 +1,6 @@
 # Our Findings
 
-**Status:** Not started — we have not run or approved the team's simulations yet.
+**Status:** Not started
 
 We'll update this file after reviewing each week's work.
 
