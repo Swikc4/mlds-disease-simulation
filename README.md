@@ -43,7 +43,7 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 [Current assignment](assignments/Week_01_Assignment.ipynb)  
 [Research sources](research/README.md)  
 [How to submit work](CONTRIBUTING.md)  
-[Meeting notes](meetings/Week_01_Meeting.md)
+[October 16 meeting agenda and notes](meetings/Week_01_Meeting.md)
 
 ## Where everything goes
 
