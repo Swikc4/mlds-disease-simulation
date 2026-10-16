@@ -27,7 +27,7 @@ The updated dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md). 
 | Folder or file | What it is for |
 | :--- | :--- |
 | [assignments](assignments/) | The current week's instructions and examples |
-| [our_work](our_work/) | One approved final notebook per week |
+| [our_work](our_work/) | Final weekly notebooks and individual explanations |
 | [research](research/) | Our source links and modeling assumptions |
 | [results](results/) | Findings and graphs we have checked |
 | [meetings](meetings/) | Meeting plans and decisions |
