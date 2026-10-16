@@ -1,41 +1,50 @@
 # Week 1 — Meeting Notes
 
-**Date:** To be confirmed  
-**Members present:**  
-**Meeting duration:**  
+**Date:** Saturday, October 17, 2026  
+**Time:** 10:30–11:00 AM (New York time)  
+**Members present:** To be filled in after the meeting
 
-## 1. What we discussed
+## Meeting agenda (30 minutes)
+
+**10:30–10:40 — Overall project**
+- Go over our research question and what we plan to build.
+- Explain the SIR → SEIR → virtual town → interactive demo → machine learning plan.
+- Clarify that we are starting from scratch and this is a group project.
+
+**10:40–10:50 — Week 1**
+- Introduce susceptible, infected, and recovered (SIR).
+- Walk through our Week 1 assignment and starting population of 100.
+- Review the short worked Python example and what the four roles involve.
+
+**10:50–11:00 — Assignments and GitHub**
+- Discuss everyone's interests and experience before choosing roles.
+- Confirm how we'll use branches and pull requests.
+- Agree on Week 1 deadlines and the next meeting.
+
+## Decisions we make
 
 - 
 
-## 2. Decisions we made
+## Week 1 responsibilities
+
+| Member | Responsibility | Deadline |
+|---|---|---|
+| Teammate 1 | To be decided | |
+| Teammate 2 | To be decided | |
+| Teammate 3 | To be decided | |
+| Teammate 4 | To be decided | |
+| Me — Project Lead | Coordinate, guide, review and merge | |
+
+## Questions or problems
 
 - 
 
-## 3. Responsibilities for this week
+## Before our next meeting
 
-| Team member | Responsibility | Deadline | Status |
-|---|---|---|---|
-| Teammate 1 | | | Not started |
-| Teammate 2 | | | Not started |
-| Teammate 3 | | | Not started |
-| Teammate 4 | | | Not started |
-| Me — Project Lead | Coordinate, review, merge, and contribute to analysis | | Not started |
+- [ ] Confirm roles and deadlines.
+- [ ] Make sure everyone can access our GitHub repository and Week 1 assignment.
+- [ ] Begin the assigned Week 1 work.
 
-## 4. Questions or problems
+**Next meeting:** To be decided
 
-- 
-
-## 5. Before our next meeting
-
-- [ ] 
-- [ ] 
-
-## 6. GitHub updates
-
-**Pull requests to review:**  
-**Pull requests merged:**  
-
-**Next meeting:** To be confirmed
-
-> Fill this in after our meeting. Keep personal or sensitive details out of our public repository.
+_This is the agenda prepared before the meeting. We'll fill in attendance and outcomes afterward._
