@@ -1,50 +1,44 @@
 # Week 1: Meeting Notes
 
 **Date:** Saturday, October 17, 2026  
-**Time:** 10:30–11:00 AM (New York time)  
-**Members present:** To be filled 
+**Time:** 10:30 to 11:00 AM, New York time  
+**Members present:** To be filled in
 
-## Meeting agenda (30 minutes)
+## Meeting plan
 
-**10:30–10:40: Overall project**
-- Go over our research question and what we plan to build.
-- Explain the SIR → SEIR → virtual town → interactive demo → machine learning plan.
-- Clarify that we are starting from scratch and this is a group project.
+**10:30 to 10:40 AM: Overall project**
 
-**10:40–10:50: Week 1**
-- Introduce susceptible, infected, and recovered (SIR).
-- Walk through our Week 1 assignment and starting population of 100.
-- Review the short worked Python example and what the four roles involve.
+Discuss our research question, the virtual town, research sources, and the overall schedule.
 
-**10:50–11:00: Assignments and GitHub**
-- Discuss everyone's interests and experience before choosing roles.
-- Confirm how we'll use branches and pull requests.
-- Agree on Week 1 deadlines and the next meeting.
+**10:40 to 10:50 AM: First assignment**
 
-## Decisions we make
+Introduce SIR and SEIR. Walk through the worked example and discuss why we are starting with simple teaching assumptions.
 
-- 
+**10:50 to 11:00 AM: Roles and GitHub**
 
-## Week 1 responsibilities
+Agree on five teammate responsibilities, confirm everyone's GitHub access, and choose a deadline. Discuss how I'll review pull requests and combine approved work into one final notebook.
+
+## Our roles for Week 1
 
 | Member | Responsibility | Deadline |
-|---|---|---|
+| :--- | :--- | :--- |
 | Teammate 1 | To be decided | |
 | Teammate 2 | To be decided | |
 | Teammate 3 | To be decided | |
 | Teammate 4 | To be decided | |
-| Me: Project Lead | Coordinate, guide, review and merge | |
+| Teammate 5 | To be decided | |
+| Me, Project Lead | Coordinate, review, interpret, and integrate | |
 
-## Questions or problems
+## Decisions
 
-- 
+To be filled in after the meeting.
 
-## Before our next meeting
+## Questions
 
-- [ ] Confirm roles and deadlines.
-- [ ] Make sure everyone can access our GitHub repository and Week 1 assignment.
-- [ ] Begin the assigned Week 1 work.
+To be filled in after the meeting.
 
-**Next meeting:** To be decided
+## Next steps
 
-_This is the agenda prepared before the meeting. We'll fill in attendance and outcomes afterward._
+Confirm roles, deadlines, and access to the Week 1 assignment.
+
+**Next meeting:** To be decided.
