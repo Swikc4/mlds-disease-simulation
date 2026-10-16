@@ -1,7 +1,7 @@
 # Week 1: Meeting Notes
 
 **Date:** Friday, October 16, 2026  
-**Scheduled time:** 10:30 to 11:00 AM, New York time  
+**Scheduled time:** 10:30 to 11:00 AM
 **Team members present:** Swikriti, Ei Kay, Jayden, and Ayush.
 
 ## What we covered
