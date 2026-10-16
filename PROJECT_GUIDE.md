@@ -2,7 +2,7 @@
 
 **ML & Data Science Club, Baruch College**  
 **Status: Planning**  
-**First meeting: October 17, 2026, 10:30 to 11:00 AM**  
+**First meeting: October 16, 2026, 10:30 to 11:00 AM**  
 **Showcase: December 10, 2026**
 
 ## Our research question
