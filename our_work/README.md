@@ -1,9 +1,10 @@
 # Our work
 
-This folder is for our **approved final Jupyter notebooks**.
+We'll organize our contributions in two folders:
 
-Our goal is one combined file per week, beginning with `Week_01_Final.ipynb` after Week 1 is completed. That notebook will include the explanations, code, charts, checks, and findings contributed by the team.
+1. [assignments](assignments/) contains one reviewed final Jupyter notebook for each week.
+2. [explanations](explanations/) contains the short individual explanations of what each teammate did and learned.
 
-While an assignment is underway, teammates can submit their sections on their own branches. I'll review the pull requests and help integrate approved pieces. We do not need permanent folders or final notebooks for each individual teammate.
+For Week 1, our final notebook will be `assignments/Week_01_Final.ipynb`. Each teammate's explanation can be named `YourName_Week01_Explanation.md` in `explanations/`.
 
-**We haven't completed any weekly notebooks yet.**
+Everyone works on their own branch and opens a pull request. We'll add files after the work is completed and reviewed.
