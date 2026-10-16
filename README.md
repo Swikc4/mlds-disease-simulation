@@ -1,10 +1,10 @@
 # How Diseases Really Spread
 
-**ML & Data Science Club — Baruch College**  
-**Status: Planning — our group project has not started coding yet**  
+**ML & Data Science Club, Baruch College**  
+**Status: Planning**  
 **Planned showcase: December 10, 2026**
 
-Hi everyone! This is the shared repository for our disease simulation group project. I set it up so we can keep our weekly assignments, research, meeting notes, and contributions in one place. We'll update this README as we go.
+This is the shared repository for our disease simulation group project. I set it up so we can keep our weekly assignments, research, meeting notes, and contributions in one place. We'll update this README as we go.
 
 ## What we plan to build
 
