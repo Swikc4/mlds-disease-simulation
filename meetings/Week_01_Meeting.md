@@ -6,17 +6,21 @@
 
 ## What we covered
 
-We went over the project overview and the Week 1 assignment. We also talked about GitHub, how we will work together, and divided the work.
+We went over the project overview and the Week 1 assignment. We also talked about GitHub and how we will work together. We started dividing the Week 1 work: Ei Kay chose the SEIR model, and Jayden chose the SIR model. The work division table below shows the current responsibilities and which team members have not chosen a task yet.
 
 Team members asked questions about the project and how we will use linear regression. We discussed providing learning materials and guidance as we go, since some of these topics are new to team members. We are building this project from scratch and learning together.
 
-## Our roles for Week 1
+## How we divided the Week 1 work
+
+We have started dividing the work, and the remaining responsibilities are still open. Team members who have not chosen a task can check the Week 1 assignment and discuss a responsibility with the team. We will update this table as tasks are chosen.
 
 | Member | GitHub username | Responsibility |
 | :--- | :--- | :--- |
 | Ei Kay | [Kay116](https://github.com/Kay116) | SEIR model |
 | Jayden | [jaydenblumberg2](https://github.com/jaydenblumberg2) | SIR model |
 | Ayush | [ayushthorat1](https://github.com/ayushthorat1) | To be confirmed |
+| Thuy Linh Tran | Not yet provided | Not chosen yet |
+| Alexander Mar | Not yet provided | Not chosen yet |
 | Swikriti, Project Lead | [Swikc4](https://github.com/Swikc4) | Coordinate the project, provide materials, review work, and combine approved contributions |
 
 ## Questions we discussed
