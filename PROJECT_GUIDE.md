@@ -1,4 +1,4 @@
-# Updated Project Schedule and Team Guide
+# Project Schedule and Team Guide
 
 **ML & Data Science Club, Baruch College**  
 **Status: Planning**  
