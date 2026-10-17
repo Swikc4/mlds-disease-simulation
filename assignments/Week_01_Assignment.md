@@ -2,6 +2,14 @@
 
 During Week 1, we will learn two disease models, practice Python, and build simple simulations together. Our six member team will choose responsibilities at our meeting. The example values are teaching assumptions, not medical estimates.
 
+## Brief History of SIR and SEIR
+
+In 1927, scientists **William O. Kermack and A. G. McKendrick** published an important mathematical model of how epidemics spread. Their work helped establish the foundation for the **SIR model**, which groups people as Susceptible, Infected, or Recovered.
+
+The **SEIR model** extends this basic idea by adding an **Exposed** group for people who have been infected but are not yet infectious. These models help us understand how infections move through a population. Our Week 1 simulation is a simplified learning example, not a prediction of a real outbreak.
+
+![SIR and SEIR model flow diagrams](visuals/sir_seir_overview.svg)
+
 ## What are SIR and SEIR?
 
 SIR divides 100 people into Susceptible (S), Infected (I), and Recovered (R). Starting values:
@@ -190,7 +198,20 @@ R &= 0
 
 Repeat the one day formulas for 30 days and save daily values in lists.
 
-Hints: `for day in range(1, 31):` repeats code. Use `.append(value)` to save daily values. Save day 0 first. Calculate infections and recoveries before updating the groups.
+### Learning Material: Python For Loops
+
+A **for loop** repeats instructions. You need one because the SIR model must calculate the changes for each day, not just once.
+
+1. Read [Python's official tutorial on for statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements). Focus on the examples using `for` and `range()`.
+2. Practice what `range(1, 31)` means. It gives the numbers from 1 through 30.
+3. Review how a list stores values and how `.append()` adds another value. See [Python's introduction to lists](https://docs.python.org/3/tutorial/introduction.html#lists).
+4. In your simulation, save the starting values for day 0, then use a loop to calculate and store each following day. Work out new infections and recoveries **before** updating S, I and R.
+
+**Practice question:** If a loop runs 30 times and you save day 0 before it starts, how many days of results will you have?
+
+Write your solution directly in the code section below.
+
+
 
 ```python
 # YOUR CODE GOES HERE: SIR simulation
@@ -223,7 +244,20 @@ Use these practice parameters:
 
 Run the model for 30 days and save all four groups.
 
-Hint: compute new exposures, new infectious cases, and new recoveries from the previous day's values first. Then update S, E, I, R.
+### Learning Material: Using a Loop for SEIR
+
+You will also use a **for loop** to repeat your daily calculations for 30 days. The main difference from SIR is that you must update **four** groups, including Exposed (E).
+
+1. Review [Python's official tutorial on for statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements), especially `range()`.
+2. Review [Python lists](https://docs.python.org/3/tutorial/introduction.html#lists) and the `.append()` method for keeping results from each day.
+3. Save day 0 first. For every new day, calculate new exposures, new infectious cases, and new recoveries using the previous day's numbers.
+4. Update S, E, I, and R only **after** calculating those three changes. Save the four updated values for that day.
+
+**Practice question:** How many separate lists do you need to save the day, S, E, I and R values?
+
+Write your solution directly in the code section below.
+
+
 
 ```python
 # YOUR CODE GOES HERE: SEIR simulation
@@ -234,19 +268,13 @@ Hint: compute new exposures, new infectious cases, and new recoveries from the p
 
 Create two line graphs in Python using `matplotlib`. You do not need to build the disease simulations.
 
-### SIR Graph
+### Graphs to Create
 
-Show three groups: **Susceptible (S), Infected (I), and Recovered (R)**.
+**SIR graph:** Show three lines for Susceptible (S), Infected (I), and Recovered (R).
 
-![Example SIR graph showing all three groups](visuals/sir_example.svg)
+**SEIR graph:** Show four lines for Susceptible (S), Exposed (E), Infected (I), and Recovered (R).
 
-### SEIR Graph
-
-Show four groups: **Susceptible (S), Exposed (E), Infected (I), and Recovered (R)**.
-
-![Example SEIR graph showing all four groups](visuals/seir_example.svg)
-
-*These are examples to show the layout. Your graphs should use your teammates' actual simulation results and may look different.*
+Use your teammates' actual daily simulation results. The shape of the lines may vary.
 
 ### Instructions
 
