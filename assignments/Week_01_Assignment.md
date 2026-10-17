@@ -274,7 +274,17 @@ Create two line graphs in Python using `matplotlib`. You do not need to build th
 
 **SEIR graph:** Show four lines for Susceptible (S), Exposed (E), Infected (I), and Recovered (R).
 
-<img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/920f17bf-fa7b-4eea-b1cf-5ea33e984cea" />
+### Example Graph Layouts
+
+**SIR Example**
+
+![Example SIR graph with three groups](visuals/sir_example.svg)
+
+**SEIR Example**
+
+![Example SEIR graph with four groups](visuals/seir_example.svg)
+
+
 Use your teammates' actual daily simulation results. The shape of the lines may vary.
 
 ### Instructions
