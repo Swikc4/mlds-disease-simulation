@@ -232,26 +232,31 @@ Hint: compute new exposures, new infectious cases, and new recoveries from the p
 
 ## Teammate 4: Graphs
 
+Your job is to make **two simple line graphs** using Python (`matplotlib`). You do not need to write the disease simulations.
+
 ### Example chart layouts
 
-These are **illustrations, not real results**. Your curves may look different. Use the actual daily results shared by Teammates 2 and 3.
+These pictures are **examples only**. Your graphs may look different because you will use the actual results.
 
-**SIR chart — show all three groups**
+**SIR graph — three lines**
 
 ![Illustrative SIR chart showing Susceptible, Infected, and Recovered people over time](visuals/sir_example.svg)
 
-**SEIR chart — show all four groups**
+**SEIR graph — four lines**
 
 ![Illustrative SEIR chart showing Susceptible, Exposed, Infected, and Recovered people over time](visuals/seir_example.svg)
 
-Ask Teammates 2 and 3 for their saved daily results. You do not need to write the simulations yourself.
+### What to do
 
-1. Make **one SIR line chart** with three lines: **Susceptible (S)**, **Infected (I)**, and **Recovered (R)**, using Teammate 2's results.
-2. Make **one SEIR line chart** with four lines: **Susceptible (S)**, **Exposed (E)**, **Infected (I)**, and **Recovered (R)**, using Teammate 3's results.
-3. Label the horizontal axis **Day (0–30)** and the vertical axis **Number of people (0–100)**. Give each chart a clear title and a legend. Use a different color for each group.
-4. **Do not make up data to match the examples.** Your lines should come from the actual simulations. They may look different from the pictures.
+1. Ask **Teammate 2** for the SIR daily results and **Teammate 3** for the SEIR daily results.
+2. Make **one SIR graph** with three lines: S, I, and R.
+3. Make **one SEIR graph** with four lines: S, E, I, and R.
+4. For both graphs, label the **X-axis: Days (0–30)** and **Y-axis: Number of people**. Add a title, legend, and different colors for the lines.
+5. Save both graphs in the `results/` folder.
 
-**Hint:** Start with `import matplotlib.pyplot as plt`. Use `plt.plot(days, susceptible, label="Susceptible")` and repeat for the other groups. Add `plt.xlabel()`, `plt.ylabel()`, `plt.legend()`, and `plt.show()`.
+**Hint:** Start with `import matplotlib.pyplot as plt`. Use `plt.plot()` for each line, then `plt.xlabel()`, `plt.ylabel()`, `plt.legend()`, and `plt.show()`.
+
+**Important:** Use the results from your teammates, not made-up numbers. You only need to make the graphs.
 
 ```python
 # YOUR CODE GOES HERE: SIR and SEIR charts
