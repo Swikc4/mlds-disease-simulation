@@ -50,5 +50,5 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | [results](results/) | Reviewed graphs and findings |
 | [meetings](meetings/) | Meeting notes and decisions |
 | [PROJECT_GUIDE.md](PROJECT_GUIDE.md) | Project schedule and team guide |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Instructions for contributing work |
+| [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) | How to submit work |
 
