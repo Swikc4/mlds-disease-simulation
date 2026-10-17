@@ -1,4 +1,4 @@
-# Week 1 — Math and Data Basics
+# Week 1 Math and Data Basics
 
 You do **not** need advanced statistics to start. Learn the meaning of a number before worrying about difficult formulas. Examples below use everyday situations, not answers to the project.
 
