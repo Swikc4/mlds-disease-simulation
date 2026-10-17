@@ -258,15 +258,24 @@ Show four groups: **Susceptible (S), Exposed (E), Infected (I), and Recovered (R
 
 ### How to Make the Graphs in Python
 
-You can use **Jupyter Notebook** or another Python editor. Follow these steps for each graph.
+Write your Python code **directly in the code section below this guide**. Do not create a separate notebook or Python file for this assignment.
 
-1. **Get the data.** Ask your teammates for the daily numbers for each group. Make sure each group has a value for the same days.
-2. **Open Python.** Start a notebook or Python file and import the `matplotlib.pyplot` library. You can look up the Matplotlib beginner tutorial if you need help installing or importing it.
-3. **Make the lines.** Use Matplotlib's line plot function, `plt.plot()`. Put the days on the horizontal axis and the numbers of people on the vertical axis. Draw one line for each group.
-4. **Label the graph.** Add a title, axis labels, different line colors, and a legend so we know which line belongs to each group.
-5. **Check and save.** Confirm that the values come from your teammates' results. Save each graph as an image in the `results/` folder and submit your Python work.
+1. **Get the data.** Ask Teammates 2 and 3 for the daily results for each group.
+2. **Import Matplotlib.** Use the `matplotlib.pyplot` library to create your graphs.
+3. **Plot the lines.** Use `plt.plot()` to draw one line for each group, with days on the horizontal axis and number of people on the vertical axis.
+4. **Label the graphs.** Add a title, axis labels, different colors, and a legend.
+5. **Check your work.** Use the actual simulation data, then save both finished graph images in the `results/` folder.
 
 **Beginner resource:** [Matplotlib's introductory plotting guide](https://matplotlib.org/stable/tutorials/pyplot.html)
+
+### Your Code Goes Here
+
+Add your own Python code below. Create both the SIR and SEIR graphs here.
+
+```python
+# Write your SIR and SEIR graph code here
+
+```
 
 ## Teammate 5: Testing
 
