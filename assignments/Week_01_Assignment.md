@@ -365,7 +365,7 @@ Write your own testing code directly in the section below. Do not create a separ
 
 After finishing your assigned part, explain what you did and how it works. This helps us understand the project instead of just collecting code.
 
-Write about **150 to 250 words**, using your own words. Keep it simple. Answer the four questions for everyone, then the questions for your role below.
+Write **150 to 250 words in total for all your answers combined**, not for each question. Use your own words and keep it simple. Answer the four questions for everyone, then the questions for your role below.
 
 ### Questions for everyone
 
@@ -390,7 +390,7 @@ Write about **150 to 250 words**, using your own words. Keep it simple. Answer t
 
 1. How is your SEIR code different from the SIR code?
 2. What does sigma represent?
-3. How does the Exposed group change over time?
+3. How did you use a loop to update and save the four groups (S, E, I, R) each day?
 
 ### Teammate 4: Charts
 
@@ -403,6 +403,7 @@ Write about **150 to 250 words**, using your own words. Keep it simple. Answer t
 1. How did you check that the population stays at 100?
 2. How did you check for negative values or calculation errors?
 3. Why do we need to test the results before using the graphs?
+4. If you found an error, what was it and how did you report it? If there were no errors, how did you confirm that the results passed your checks?
 
 ### Where to submit
 
