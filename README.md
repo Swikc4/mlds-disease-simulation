@@ -20,7 +20,7 @@ This is an educational simulation, not a medical prediction tool.
 
 Each week, we will divide the work among five teammates, with me coordinating the project, reviewing pull requests, and helping combine the approved work into **one final weekly Jupyter notebook**. Roles will be decided together and rotated as we learn.
 
-The updated dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md). Our first assignment covers both SIR and SEIR during October 17 to 23. We'll confirm the deadline with everyone at our first meeting.
+Dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md). Our first assignment covers both SIR and SEIR during October 17 to 23. We'll confirm the deadline with everyone at our first meeting.
 
 ## Our weekly schedule
 
@@ -46,18 +46,18 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 [How to submit work](CONTRIBUTING.md)  
 [October 16 meeting agenda and notes](meetings/Week_01_Meeting.md)
 
-## Where everything goes
+## Project directories
 
-| Folder or file | What it is for |
+| Folder or file | Purpose |
 | :--- | :--- |
-| [assignments](assignments/) | The current week's instructions and examples |
-| [our_work/assignments](our_work/assignments/) | One final notebook per week |
-| [our_work/explanations](our_work/explanations/) | Each teammate's explanation of their work |
-| [research](research/) | Our source links and modeling assumptions |
-| [learning](learning/) | Weekly Python, math, and practice materials |
-| [results](results/) | Findings and graphs we have checked |
-| [meetings](meetings/) | Meeting plans and decisions |
+| [assignments](assignments/) | Weekly assignments and instructions |
+| [learning](learning/) | Python, math, and practice materials |
+| [our_work/assignments](our_work/assignments/) | Final weekly notebooks |
+| [our_work/explanations](our_work/explanations/) | Team members' written explanations |
+| [research](research/) | Research sources and modeling assumptions |
+| [results](results/) | Reviewed graphs and findings |
+| [meetings](meetings/) | Meeting notes and decisions |
 | [PROJECT_GUIDE.md](PROJECT_GUIDE.md) | Project schedule and team guide |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to submit and review work |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Instructions for contributing work |
 
 Our original proposal already lists CDC publications, research articles, and historical COVID 19 data. The links are organized in [research/README.md](research/README.md).
