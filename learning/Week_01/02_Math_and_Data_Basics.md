@@ -68,5 +68,3 @@ Different models track different things; adding more detail can make a model har
 3. In `new = old + incoming - outgoing`, what happens if outgoing increases while other inputs stay unchanged?
 4. Why does a graph need axis labels?
 5. Why is a simulation assumption different from a real-world measurement?
-
-Try answering in your own words. It's okay to discuss with others.
