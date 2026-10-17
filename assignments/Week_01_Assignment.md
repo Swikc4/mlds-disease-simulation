@@ -160,7 +160,17 @@ Hint: SIR has no exposed stage, while SEIR includes a delay before a person beco
 
 ## Teammate 2: SIR model
 
-Start with 100 people, S=99, I=1, R=0. Repeat the one day formulas for 30 days and save daily values in lists.
+Start with 100 people:
+
+```math
+\begin{aligned}
+S &= 99 \\
+I &= 1 \\
+R &= 0
+\end{aligned}
+```
+
+Repeat the one day formulas for 30 days and save daily values in lists.
 
 Hints: `for day in range(1, 31):` repeats code. Use `.append(value)` to save daily values. Save day 0 first. Calculate infections and recoveries before updating the groups.
 
@@ -172,7 +182,28 @@ Hints: `for day in range(1, 31):` repeats code. Use `.append(value)` to save dai
 
 ## Teammate 3: SEIR model
 
-Start with S=99, E=0, I=1, R=0. Use beta=0.30, sigma=0.25, gamma=0.10 for 30 days. Save all four groups.
+Start with:
+
+```math
+\begin{aligned}
+S &= 99 \\
+E &= 0 \\
+I &= 1 \\
+R &= 0
+\end{aligned}
+```
+
+Use these practice parameters:
+
+```math
+\begin{aligned}
+\beta &= 0.30 \\
+\sigma &= 0.25 \\
+\gamma &= 0.10
+\end{aligned}
+```
+
+Run the model for 30 days and save all four groups.
 
 Hint: compute new exposures, new infectious cases, and new recoveries from the previous day's values first. Then update S, E, I, R.
 
@@ -183,9 +214,13 @@ Hint: compute new exposures, new infectious cases, and new recoveries from the p
 
 ## Teammate 4: Graphs
 
-Ask Teammates 2 and 3 for their results. Make two charts, one for SIR and one for SEIR. Label both axes, include a title and a legend.
+Ask Teammates 2 and 3 for their saved daily results. You do not need to write the simulations yourself.
 
-Hint: use `import matplotlib.pyplot as plt`, `plt.plot(days, infected_values, label='Infected')`, `plt.legend()` and `plt.show()`.
+1. Make one line chart showing **infected people over time** for SIR.
+2. Make another line chart showing **infected people over time** for SEIR.
+3. Label the horizontal axis **Day** and the vertical axis **Infected**, and give each chart a title.
+
+**Hint:** Start with `import matplotlib.pyplot as plt`. Use `plt.plot(days, infected_values)` to draw the line, `plt.xlabel()` and `plt.ylabel()` for the axes, and `plt.show()` to display it. Ask for the lists of days and infected values if you do not have them.
 
 ```python
 # YOUR CODE GOES HERE: SIR and SEIR charts
@@ -193,9 +228,26 @@ Hint: use `import matplotlib.pyplot as plt`, `plt.plot(days, infected_values, la
 
 ## Teammate 5: Testing
 
-Check each day: totals stay at 100, no group is negative, S does not increase, and R does not decrease. Write down any failed day.
+Ask Teammates 2 and 3 for their saved daily results. You do not need to write the simulations yourself.
 
-Hint: `abs(total - 100) < 0.000001` allows small decimal rounding differences.
+Start with two checks for **both models**:
+
+1. The total population stays at 100 each day.
+2. No group has a negative value.
+
+For SIR, check:
+
+```math
+S + I + R = 100
+```
+
+For SEIR, check:
+
+```math
+S + E + I + R = 100
+```
+
+**Hint:** `abs(total - 100) < 0.000001` allows small decimal rounding differences. If a check fails, write down the day and the problem. If you have time, also check that S does not increase and R does not decrease.
 
 ```python
 # YOUR CODE GOES HERE: checks for SIR and SEIR
@@ -246,9 +298,7 @@ Write about **150 to 250 words**, using your own words. Keep it simple. Answer t
 
 ### Where to submit your explanation
 
-Save your writing as **`YourName_Week01_Explanation.md`** under **`our_work/explanations/`** on your branch. Include it in the same pull request as your assigned work.
-
-The project lead will review the explanations and combine approved coding work into **`our_work/assignments/Week_01_Final.ipynb`**.
+Follow the [Submission Guide](../SUBMISSION_GUIDE.md) to save and submit your written explanation.
 
 **Required Week 1 reading:** [CDC Yellow Book: Influenza](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/influenza.html). Read the parts describing the **incubation period** and **when people can spread influenza**. You do not need to read the entire page. Use those details to think about why the SIR model is simplified and why SEIR adds an Exposed stage. **Question:** Is the time before symptoms always the same as the time before someone becomes infectious? Explain briefly in your own words.
 
@@ -256,8 +306,4 @@ For the SIR and SEIR formulas, use Sections 1 through 5 of **this notebook**. Th
 
 ## GitHub submission
 
-Complete your role on your own branch and open a pull request. Do not edit the assignment on main. You can submit a temporary file while the work is reviewed.
-
-After reviewing everyone's contributions, I'll combine the approved explanations, SIR code, SEIR code, charts, and tests into **one `our_work/assignments/Week_01_Final.ipynb`**. We will keep this as the weekly final notebook. The pull request history will still show who contributed.
-
-Checklist: I completed my part, can explain it, shared any needed output, checked my work, and opened a pull request.
+Follow the [Submission Guide](../SUBMISSION_GUIDE.md) for step-by-step instructions on submitting your work and opening a pull request.
