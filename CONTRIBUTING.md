@@ -1,4 +1,4 @@
-# How to Contribute
+# Submission Guide
 
 ## Submit your work
 
