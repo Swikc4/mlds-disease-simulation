@@ -42,13 +42,3 @@ SIR and SEIR begin with teaching assumptions, not real patients. The town will g
 ## Required core and optional work
 
 The core is a working interactive simulation for three diseases, reviewed charts, and simple machine learning tested on unseen simulated runs. Historical NYC COVID 19 comparison and gradient boosting are optional. We will not sacrifice a working demo to add them.
-
-## First meeting
-
-**October 17, 10:30 to 11:00 AM, New York time**
-
-1. 10:30 to 10:40: Explain the research question and project.
-2. 10:40 to 10:50: Introduce SIR and SEIR and explain the Week 1 assignment covering both models.
-3. 10:50 to 11:00: Discuss interests, choose roles, explain GitHub and agree on deadlines.
-
-We'll update the guide after our meeting as needed.
