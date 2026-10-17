@@ -339,8 +339,24 @@ S + E + I + R = 100
 
 **Hint:** `abs(total - 100) < 0.000001` allows small decimal rounding differences. If a check fails, write down the day and the problem. If you have time, also check that S does not increase and R does not decrease.
 
+### Learning Material: Testing in Python
+
+Testing means checking whether the simulation results make sense. You do not need to create the SIR or SEIR models yourself.
+
+1. **Learn conditions.** Read [Python's guide to `if` statements](https://docs.python.org/3/tutorial/controlflow.html#if-statements). An `if` statement lets you check whether a condition is true.
+2. **Learn loops.** Review [Python's guide to `for` loops](https://docs.python.org/3/tutorial/controlflow.html#for-statements). You can use a loop to check every day instead of checking each day manually.
+3. **Check the total.** For each day, add the SIR groups or SEIR groups. The answer should stay close to 100. Because Python uses decimals, a tiny rounding difference is okay.
+4. **Check for negative numbers.** Make sure none of the groups is below zero on any day.
+5. **Record your results.** If something fails, write down the day, which model it came from, and what went wrong. If all days pass, say so in your explanation.
+
+**Practice:** If S = 70, I = 20, and R = 10, does the SIR total pass? What if one group is negative?
+
+Write your own testing code directly in the section below. Do not create a separate notebook or Python file.
+
+### Your Code Goes Here
+
 ```python
-# YOUR CODE GOES HERE: checks for SIR and SEIR
+# Write your SIR and SEIR testing code here
 ```
 
 ## Explanation and submission
