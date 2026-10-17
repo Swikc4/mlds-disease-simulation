@@ -232,34 +232,36 @@ Hint: compute new exposures, new infectious cases, and new recoveries from the p
 
 ## Teammate 4: Graphs
 
-Your job is to make **two simple line graphs** using Python (`matplotlib`). You do not need to write the disease simulations.
+Create two line graphs in Python using `matplotlib`. You do not need to build the disease simulations.
 
-### Example chart layouts
+### SIR Graph
 
-These pictures are **examples only**. Your graphs may look different because you will use the actual results.
+Show three groups: **Susceptible (S), Infected (I), and Recovered (R)**.
 
-**SIR graph — three lines**
+![Example SIR graph showing all three groups](visuals/sir_example.svg)
 
-![Illustrative SIR chart showing Susceptible, Infected, and Recovered people over time](visuals/sir_example.svg)
+### SEIR Graph
 
-**SEIR graph — four lines**
+Show four groups: **Susceptible (S), Exposed (E), Infected (I), and Recovered (R)**.
 
-![Illustrative SEIR chart showing Susceptible, Exposed, Infected, and Recovered people over time](visuals/seir_example.svg)
+![Example SEIR graph showing all four groups](visuals/seir_example.svg)
 
-### What to do
+*These are examples to show the layout. Your graphs should use your teammates' actual simulation results and may look different.*
 
-1. Ask **Teammate 2** for the SIR daily results and **Teammate 3** for the SEIR daily results.
-2. Make **one SIR graph** with three lines: S, I, and R.
-3. Make **one SEIR graph** with four lines: S, E, I, and R.
-4. For both graphs, label the **X-axis: Days (0–30)** and **Y-axis: Number of people**. Add a title, legend, and different colors for the lines.
-5. Save both graphs in the `results/` folder.
+### Instructions
 
-**Hint:** Start with `import matplotlib.pyplot as plt`. Use `plt.plot()` for each line, then `plt.xlabel()`, `plt.ylabel()`, `plt.legend()`, and `plt.show()`.
+1. Get the daily SIR results from **Teammate 2** and the daily SEIR results from **Teammate 3**.
+2. Create one SIR graph with three lines and one SEIR graph with four lines.
+3. For both graphs, label the horizontal axis **Days (0 to 30)** and the vertical axis **Number of people (0 to 100)**.
+4. Add a clear title, a legend, and different colors for each group.
+5. Save both finished graphs in the `results/` folder.
 
-**Important:** Use the results from your teammates, not made-up numbers. You only need to make the graphs.
+### Python Hint
+
+Use `plt.plot()` to draw each line. Add axis labels with `plt.xlabel()` and `plt.ylabel()`, a legend with `plt.legend()`, and display the graph with `plt.show()`.
 
 ```python
-# YOUR CODE GOES HERE: SIR and SEIR charts
+# YOUR CODE GOES HERE
 ```
 
 ## Teammate 5: Testing
