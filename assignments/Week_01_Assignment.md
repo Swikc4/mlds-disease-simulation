@@ -256,13 +256,17 @@ Show four groups: **Susceptible (S), Exposed (E), Infected (I), and Recovered (R
 4. Add a clear title, a legend, and different colors for each group.
 5. Save both finished graphs in the `results/` folder.
 
-### Python Hint
+### How to Make the Graphs in Python
 
-Use `plt.plot()` to draw each line. Add axis labels with `plt.xlabel()` and `plt.ylabel()`, a legend with `plt.legend()`, and display the graph with `plt.show()`.
+You can use **Jupyter Notebook** or another Python editor. Follow these steps for each graph.
 
-```python
-# YOUR CODE GOES HERE
-```
+1. **Get the data.** Ask your teammates for the daily numbers for each group. Make sure each group has a value for the same days.
+2. **Open Python.** Start a notebook or Python file and import the `matplotlib.pyplot` library. You can look up the Matplotlib beginner tutorial if you need help installing or importing it.
+3. **Make the lines.** Use Matplotlib's line plot function, `plt.plot()`. Put the days on the horizontal axis and the numbers of people on the vertical axis. Draw one line for each group.
+4. **Label the graph.** Add a title, axis labels, different line colors, and a legend so we know which line belongs to each group.
+5. **Check and save.** Confirm that the values come from your teammates' results. Save each graph as an image in the `results/` folder and submit your Python work.
+
+**Beginner resource:** [Matplotlib's introductory plotting guide](https://matplotlib.org/stable/tutorials/pyplot.html)
 
 ## Teammate 5: Testing
 
