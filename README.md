@@ -44,7 +44,7 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 [Research sources](research/README.md)  
 [Learning Materials](learning/README.md)  
 [How to submit work](CONTRIBUTING.md)  
-[October 16 meeting agenda and notes](meetings/Week_01_Meeting.md)
+[Meeting agendas and notes](meetings/)
 
 ## Project directories
 
