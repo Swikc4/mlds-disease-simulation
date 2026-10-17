@@ -1,6 +1,6 @@
-# Week 1 — Practice and Beginner Resources
+# Week 1 Practice and Beginner Resources
 
-These are **optional warm-ups**. They are not the Week 1 assignment and do not contain its solution.
+These are **optional warm-ups**.
 
 ## Before you begin
 If you are completely new to Python, start with [Python basics](01_Python_Basics.md), then read [Math and data basics](02_Math_and_Data_Basics.md). Try each example in a new notebook. Change a value, rerun the cell, and describe what changed.
@@ -17,12 +17,12 @@ If you are completely new to Python, start with [Python basics](01_Python_Basics
 If stuck, reread the relevant section or ask a teammate to explain the idea. Avoid copying an answer you cannot describe yourself.
 
 ## Free references
-- [Official Python tutorial](https://docs.python.org/3/tutorial/) — a complete reference; use a small section at a time.
-- [Python for Everybody](https://www.py4e.com/lessons) — lessons that begin with the basics.
-- [Jupyter Notebook documentation](https://docs.jupyter.org/en/latest/) — learn what notebooks and cells are.
-- [Matplotlib pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html) — plotting basics.
-- [Khan Academy: Statistics and probability](https://www.khanacademy.org/math/statistics-probability) — percentages, graphs, and data.
-- [Khan Academy: Algebra basics](https://www.khanacademy.org/math/algebra-basics) — variables and equations.
+- [Official Python tutorial](https://docs.python.org/3/tutorial/)
+- [Python for Everybody](https://www.py4e.com/lessons)
+- [Jupyter Notebook documentation](https://docs.jupyter.org/en/latest/)
+- [Matplotlib pyplot tutorial](https://matplotlib.org/stable/tutorials/pyplot.html)
+- [Khan Academy: Statistics and probability](https://www.khanacademy.org/math/statistics-probability)
+- [Khan Academy: Algebra basics](https://www.khanacademy.org/math/algebra-basics)
 
 ## For our disease-simulation research
 Use the separate [research source list](../../research/README.md). It is where our disease and modeling reading belongs; the tutorials above are for basic skills.
