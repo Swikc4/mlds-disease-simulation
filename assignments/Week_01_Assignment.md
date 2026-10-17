@@ -1,6 +1,6 @@
 # Week 1: Introduction to SIR and SEIR
 
-We are starting from scratch. During Week 1, we will learn two disease models, practice Python, and build simple simulations together. Our six member team will choose responsibilities at our meeting. The example values are teaching assumptions, not medical estimates.
+During Week 1, we will learn two disease models, practice Python, and build simple simulations together. Our six member team will choose responsibilities at our meeting. The example values are teaching assumptions, not medical estimates.
 
 ## What are SIR and SEIR?
 
