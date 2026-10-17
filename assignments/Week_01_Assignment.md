@@ -26,7 +26,9 @@ SEIR adds Exposed (E), a group infected but not yet infectious in our simplified
 ```mermaid
 flowchart LR
     S[Susceptible] --> E[Exposed] --> I[Infected] --> R[Recovered]
-``` SEIR starts at:
+```
+
+SEIR starts at:
 
 ```math
 \begin{aligned}
