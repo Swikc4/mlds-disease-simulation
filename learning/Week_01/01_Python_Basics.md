@@ -1,6 +1,4 @@
-# Week 1 — Python Basics
-
-**Who this is for:** Anyone who has never used Python, or wants a refresher. These are general examples and **not the project solution**.
+# Week 1 Python Basics
 
 ## 1. What is Python?
 Python is a programming language: we give the computer instructions, and it follows them. We will use it to work with numbers, make simple models, and draw charts.
