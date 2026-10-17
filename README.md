@@ -51,7 +51,7 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | Folder or file | Purpose |
 | :--- | :--- |
 | [assignments](assignments/) | Weekly assignments and instructions |
-| [learning](learning/) | Python, math, and practice materials |
+| [learning](learning/) | Learning resources for each stage of the project, including coding, graphs, and modeling |
 | [our_work/assignments](our_work/assignments/) | Final weekly notebooks |
 | [our_work/explanations](our_work/explanations/) | Team members' written explanations |
 | [research](research/) | Research sources and modeling assumptions |
@@ -60,4 +60,3 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | [PROJECT_GUIDE.md](PROJECT_GUIDE.md) | Project schedule and team guide |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Instructions for contributing work |
 
-Our original proposal already lists CDC publications, research articles, and historical COVID 19 data. The links are organized in [research/README.md](research/README.md).
