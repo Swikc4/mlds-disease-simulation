@@ -29,7 +29,7 @@ Our first assignment combines SIR and SEIR into Week 1. The work is divided amon
 
 ## How we will divide the work
 
-For Week 1, I let everyone choose the task they wanted to work on based on their interests and experience. The tasks include explanations, SIR coding, SEIR coding, charts, and testing. I will coordinate our work, review pull requests, help interpret results, and combine approved contributions. We can choose tasks again in later weeks as the project develops.
+Everyone can choose the tasks they want to work on based on their interests, experience, and what they would like to learn. We will discuss our choices as a group to make sure the work is covered and shared fairly. I will coordinate our progress, help when needed, review pull requests, and combine approved contributions. We can adjust tasks as the project develops.
 
 ## Working together on GitHub
 
