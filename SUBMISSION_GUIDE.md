@@ -1,6 +1,6 @@
 # Submission Guide
 
-This guide explains how to submit your work to our GitHub project. If this is your first time using GitHub, start at Step 1.
+This guide explains how to submit your work to our GitHub project. You can use **Method A: GitHub Website** (no Terminal needed) or **Method B: Terminal and Git**. Both methods require your own branch and a pull request for review.
 
 ## A few words to know
 
@@ -15,10 +15,42 @@ This guide explains how to submit your work to our GitHub project. If this is yo
 
 1. Create a free account at [GitHub](https://github.com/) if you do not have one.
 2. Send your **GitHub username** to the project manager.
-3. Install [Git](https://git-scm.com/downloads) and open Terminal on Mac or Git Bash/Terminal on Windows. If you prefer a visual app, [GitHub Desktop](https://desktop.github.com/) can handle cloning, branching, committing, pushing, and pull requests.
-4. Find the weekly instructions in the [assignments folder](assignments/).
+3. Find the weekly instructions in the [assignments folder](assignments/).
+4. Choose one submission method below. **No Terminal installation is needed for Method A.** If you choose Method B, install [Git](https://git-scm.com/downloads). You can also use [GitHub Desktop](https://desktop.github.com/) if you prefer a visual Git application.
 
-The steps below use Git commands. You can copy them **one line at a time**. Text in quotation marks is an example; use your own meaningful names.
+## Method A: Submit using the GitHub website (beginner friendly)
+
+You can make changes and submit files from your browser. You do not need to run Git commands.
+
+### 1. Create your own branch
+
+1. Sign in to [our GitHub repository](https://github.com/Swikc4/mlds-disease-simulation).
+2. Above the file list, click the branch selector that says `main`.
+3. Type a new branch name, such as `alex-week01-task`, then choose **Create branch** from `main`.
+4. Check that the branch selector shows **your branch** before you make changes. Never edit `main` for your assignment.
+
+### 2. Add or edit your work
+
+1. Open the appropriate folder in the repository while on **your branch**.
+2. To upload completed code, a notebook, explanations, or images saved on your computer, choose **Add file** and then **Upload files**. Drag files onto the page or select them from your computer.
+3. To edit an existing text or Markdown file, open it, click the pencil icon, and make your changes. Use this option only for files you are responsible for.
+4. Write a brief commit message and select **Commit changes** to **your branch**. Repeat for other files as needed.
+
+**Charts and images:** Save graph images as PNG files and upload them into `results/`. Also submit the Python file or notebook used to create them. Put written explanations in `team_contributions/written_explanations/`.
+
+### 3. Open your pull request
+
+1. Open the repository and choose **Compare & pull request** if GitHub offers it. Otherwise go to **Pull requests** and select **New pull request**.
+2. Set **base** to `main` and **compare** to **your branch**.
+3. Check **Files changed** to make sure only your intended files are included.
+4. Add a short title and description, then select **Create pull request**.
+5. Wait for the project manager to review. **Do not merge your own pull request.**
+
+If you are asked to make changes, return to **your branch**, edit or upload the corrected file, and commit it. The existing pull request will update automatically.
+
+## Method B: Submit using Terminal and Git
+
+Choose this method if you are comfortable using Git commands. Copy the commands **one line at a time**, and replace example branch names and file paths with your own.
 
 ## Step 2: Clone the project (first time only)
 
@@ -58,27 +90,27 @@ If `git switch` is not recognized, ask for help updating Git.
 
 ## How to submit charts and images
 
-If your assignment includes a chart, graph, or other image, submit the image **together with the code or work used to create it**. Follow the same steps regardless of your role.
+If your assignment includes a chart, graph, or other image, submit the image **together with the code or work used to create it**. Use Method A or Method B above.
 
 1. **Save your images.** Export each chart as a PNG image with a clear filename, such as `my_chart.png`. If you use Matplotlib, `savefig()` can save the image.
 2. **Put the files in the right folder.** Save chart images in the project's `results/` folder. Keep your Python code or notebook in the appropriate project folder on your own branch.
-3. **Check your changes.** In Terminal, inside the cloned project folder, run:
+3. **If using Terminal, check your changes.** Inside the cloned project folder, run:
 
 ```bash
 git branch --show-current
 git status
 ```
 
-4. **Submit your work.** Follow Step 5 below to add, commit, and push your files. For example, replace the filenames with your actual files:
+4. **If using Terminal, submit your work.** Follow Step 5 below to add, commit, and push your files. For example, replace the filenames with your actual files:
 
 ```bash
 git add results/my_chart.png
 git add path/to/your-code-file
 ```
 
-5. **Open a pull request.** Follow Step 6 and check that the **Files changed** tab includes your images and related work. The project manager will review everything before merging.
+5. **Open a pull request.** Follow the pull request steps for your chosen method. Check that **Files changed** includes your images and related work.
 
-**Prefer the GitHub website?** Switch to **your own branch**, open the `results/` folder, choose **Add file**, then **Upload files**. Upload your images and commit them to your branch. Make sure your related code is also committed, then open a pull request.
+**Using the website?** Follow Method A to upload both the images and related code to your branch.
 
 ## Step 5: Save and upload your changes
 
@@ -137,7 +169,7 @@ Your existing pull request will update automatically. You do not need to open an
 - [ ] I worked on my own branch.
 - [ ] I saved and checked my work.
 - [ ] I explained what I did in my own words.
-- [ ] I pushed my changes to GitHub.
+- [ ] I committed my work to my branch (and pushed it if I used Terminal).
 - [ ] I opened a pull request to `main`.
 
 If you get stuck, share the step you reached and the exact error message with the group or the project manager. You are not expected to know every Git command already.
