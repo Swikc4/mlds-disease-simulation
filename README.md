@@ -54,20 +54,10 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | [our_work/assignments](our_work/assignments/) | One final notebook per week |
 | [our_work/explanations](our_work/explanations/) | Each teammate's explanation of their work |
 | [research](research/) | Our source links and modeling assumptions |
+| [learning](learning/) | Weekly Python, math, and practice materials |
 | [results](results/) | Findings and graphs we have checked |
 | [meetings](meetings/) | Meeting plans and decisions |
+| [PROJECT_GUIDE.md](PROJECT_GUIDE.md) | Project schedule and team guide |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to submit and review work |
 
 Our original proposal already lists CDC publications, research articles, and historical COVID 19 data. The links are organized in [research/README.md](research/README.md).
-
-## Progress
-
-- [x] Set up GitHub and the Week 1 assignment
-- [ ] Confirm roles and deadlines at our first meeting
-- [ ] Complete SIR and SEIR in Week 1
-- [ ] Build the virtual town
-- [ ] Add the disease comparisons and interactive controls
-- [ ] Train and evaluate the machine learning models
-- [ ] Review our findings and prepare for the showcase
-
-We'll update this list as we finish each part.
