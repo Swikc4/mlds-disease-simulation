@@ -22,19 +22,7 @@ R &= 0
 \end{aligned}
 ```
 
-**SIR flow:**
-
-```mermaid
-flowchart LR
-    S[Susceptible] --> I[Infected] --> R[Recovered]
-```
-
-SEIR adds Exposed (E), a group infected but not yet infectious in our simplified model. **SEIR flow:**
-
-```mermaid
-flowchart LR
-    S[Susceptible] --> E[Exposed] --> I[Infected] --> R[Recovered]
-```
+SEIR adds Exposed (E), a group infected but not yet infectious in our simplified model.
 
 SEIR starts at:
 
