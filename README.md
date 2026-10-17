@@ -20,6 +20,17 @@ This is an educational simulation, not a medical prediction tool.
 
 Each week, we will divide the work among five teammates, with me coordinating the project, reviewing pull requests, and helping combine the approved work into **one final weekly Jupyter notebook**. Roles will be decided together and rotated as we learn.
 
+## How to submit your work
+
+Choose whichever method works best for you:
+
+1. **GitHub Website (beginner friendly):** Create your own branch, upload or edit your files on GitHub, and open a pull request. No Terminal needed.
+2. **Terminal and Git:** Clone the repository, work on your own branch, commit and push your files, then open a pull request.
+
+**For both methods:** Submit your work on your own branch and wait for the project manager to review your pull request before merging. If your task includes charts, submit the images along with the code used to create them.
+
+Follow the [Submission Guide](SUBMISSION_GUIDE.md) for step by step instructions.
+
 ## Our weekly schedule
 
 | Week | Dates | What we're working on |
