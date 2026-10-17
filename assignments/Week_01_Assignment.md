@@ -14,9 +14,19 @@ R &= 0
 \end{aligned}
 ```
 
-People move from S to I to R.
+**SIR flow:**
 
-SEIR adds Exposed (E), a group infected but not yet infectious in our simplified model. People move from S to E to I to R. SEIR starts at:
+```mermaid
+flowchart LR
+    S[Susceptible] --> I[Infected] --> R[Recovered]
+```
+
+SEIR adds Exposed (E), a group infected but not yet infectious in our simplified model. **SEIR flow:**
+
+```mermaid
+flowchart LR
+    S[Susceptible] --> E[Exposed] --> I[Infected] --> R[Recovered]
+``` SEIR starts at:
 
 ```math
 \begin{aligned}
@@ -154,7 +164,13 @@ Teammates 2 and 3 should share their daily values with Teammates 4 and 5.
 
 Explain what S, E, I and R mean, why population stays constant, and two assumptions that make the models simpler than real disease outbreaks.
 
-Hint: SIR has no exposed stage, while SEIR includes a delay before a person becomes infectious. Do not confuse the time until symptoms with the time until infectiousness.
+**Use this source from our [Research Sources](../research/README.md):**
+
+[CDC Yellow Book: Influenza](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/influenza.html)
+
+Read about the incubation period and when influenza can spread. In your own words, explain one useful fact from the source and how it connects to SIR or SEIR. Remember that the time before symptoms does not always match the time before someone becomes infectious.
+
+Our beta, gamma, and sigma values are practice assumptions, not numbers taken from the CDC page.
 
 **YOUR EXPLANATION GOES HERE.**
 
@@ -214,6 +230,18 @@ Hint: compute new exposures, new infectious cases, and new recoveries from the p
 
 ## Teammate 4: Graphs
 
+### Example chart layouts
+
+These are **illustrations, not real results**. Your curves may look different. Use the actual day and infected values shared by Teammates 2 and 3.
+
+**SIR chart**
+
+![Illustrative SIR line chart, with Day on the x-axis and Infected people on the y-axis](visuals/sir_example.svg)
+
+**SEIR chart**
+
+![Illustrative SEIR line chart, with Day on the x-axis and Infected people on the y-axis](visuals/seir_example.svg)
+
 Ask Teammates 2 and 3 for their saved daily results. You do not need to write the simulations yourself.
 
 1. Make one line chart showing **infected people over time** for SIR.
@@ -253,9 +281,11 @@ S + E + I + R = 100
 # YOUR CODE GOES HERE: checks for SIR and SEIR
 ```
 
-## Explain your work
+## Explanation and submission
 
-After finishing your assigned part, I want each of you to explain what you actually did and how it works. This helps us understand the project instead of just collecting code.
+### Written explanation
+
+After finishing your assigned part, explain what you did and how it works. This helps us understand the project instead of just collecting code.
 
 Write about **150 to 250 words**, using your own words. Keep it simple. Answer the four questions for everyone, then the questions for your role below.
 
@@ -296,14 +326,8 @@ Write about **150 to 250 words**, using your own words. Keep it simple. Answer t
 2. How did you check for negative values or calculation errors?
 3. Why do we need to test the results before using the graphs?
 
-### Where to submit your explanation
+### Where to submit
 
-Follow the [Submission Guide](../SUBMISSION_GUIDE.md) to save and submit your written explanation.
+**Written explanation:** Follow the [Submission Guide](../SUBMISSION_GUIDE.md) to save and submit your explanation.
 
-**Required Week 1 reading:** [CDC Yellow Book: Influenza](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/influenza.html). Read the parts describing the **incubation period** and **when people can spread influenza**. You do not need to read the entire page. Use those details to think about why the SIR model is simplified and why SEIR adds an Exposed stage. **Question:** Is the time before symptoms always the same as the time before someone becomes infectious? Explain briefly in your own words.
-
-For the SIR and SEIR formulas, use Sections 1 through 5 of **this notebook**. The CDC page is background on real disease timing, not a source for our formulas or chosen parameter values. Our **beta = 0.30, gamma = 0.10, and sigma = 0.25** are classroom assumptions, not influenza estimates. The other research links are saved in `research/README.md` for later weeks.
-
-## GitHub submission
-
-Follow the [Submission Guide](../SUBMISSION_GUIDE.md) for step-by-step instructions on submitting your work and opening a pull request.
+**Code, charts, and testing:** Follow the same [Submission Guide](../SUBMISSION_GUIDE.md) to submit your files and open a pull request.
