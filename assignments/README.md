@@ -1,11 +1,11 @@
-# Weekly assignments
+# Weekly Assignments
 
-Only our current assignment is posted here.
+This folder contains the assignments for each stage of our project. Each assignment includes the tasks and instructions for that week.
 
-Our Week 1 assignment introduces both SIR and SEIR. The proposed work period is **October 17 to 23**. We'll confirm deadlines after discussing everyone's experience.
+## Assignments
 
-Start with [Week 1: Introduction to SIR and SEIR](Week_01_Assignment.ipynb). The notebook contains the lesson, worked examples, hints, five teammate roles, and instructions for submitting work.
+- [Week 1: SIR and SEIR](Week_01_Assignment.ipynb)
 
-We'll decide who takes each role during the meeting. Each person completes their part and explains how it works. I'll review the pull requests and help combine the approved work into one final notebook in `team_contributions/final_assignments/` and keep individual explanations in `team_contributions/written_explanations/`.
+New assignments will be added as the project progresses.
 
-We'll post future assignments when we're ready for them.
+For instructions on submitting work, see the [Submission Guide](../SUBMISSION_GUIDE.md).
