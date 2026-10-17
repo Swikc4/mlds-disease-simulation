@@ -29,7 +29,7 @@ Our first assignment combines SIR and SEIR into Week 1. The work is divided amon
 
 ## How we will divide the work
 
-Five teammates and I will choose roles at the meeting. For the first combined assignment, we need explanations, SIR coding, SEIR coding, charts, and testing. I will teach the overview, coordinate outputs, review pull requests, interpret results and integrate approved work. We will rotate tasks in later weeks.
+For Week 1, I let everyone choose the task they wanted to work on based on their interests and experience. The tasks include explanations, SIR coding, SEIR coding, charts, and testing. I will coordinate our work, review pull requests, help interpret results, and combine approved contributions. We can choose tasks again in later weeks as the project develops.
 
 ## Working together on GitHub
 
