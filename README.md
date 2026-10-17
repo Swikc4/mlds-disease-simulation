@@ -42,6 +42,7 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 
 [Current assignment](assignments/Week_01_Assignment.ipynb)  
 [Research sources](research/README.md)  
+[Beginner learning materials](learning/README.md)  
 [How to submit work](CONTRIBUTING.md)  
 [October 16 meeting agenda and notes](meetings/Week_01_Meeting.md)
 
@@ -53,6 +54,7 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | [our_work/assignments](our_work/assignments/) | One final notebook per week |
 | [our_work/explanations](our_work/explanations/) | Each teammate's explanation of their work |
 | [research](research/) | Our source links and modeling assumptions |
+| [learning](learning/) | Beginner-friendly Python and math notes, organized by week |
 | [results](results/) | Findings and graphs we have checked |
 | [meetings](meetings/) | Meeting plans and decisions |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to submit and review work |
