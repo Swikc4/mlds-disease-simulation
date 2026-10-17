@@ -293,7 +293,8 @@ Use your teammates' actual daily simulation results. The shape of the lines may 
 2. Create one SIR graph with three lines and one SEIR graph with four lines.
 3. For both graphs, label the horizontal axis **Days (0 to 30)** and the vertical axis **Number of people (0 to 100)**.
 4. Add a clear title, a legend, and different colors for each group.
-5. Save both finished graphs in the `results/` folder.
+5. Save the finished SIR and SEIR graphs as image files in the `results/` folder.
+6. Submit **both graph images and your Python code together** on your own branch in one pull request. Follow the [Submission Guide](../SUBMISSION_GUIDE.md#how-to-submit-graphs-teammate-4) for help.
 
 ### How to Make the Graphs in Python
 
