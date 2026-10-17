@@ -20,8 +20,6 @@ This is an educational simulation, not a medical prediction tool.
 
 Each week, we will divide the work among five teammates, with me coordinating the project, reviewing pull requests, and helping combine the approved work into **one final weekly Jupyter notebook**. Roles will be decided together and rotated as we learn.
 
-Project dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md).
-
 ## Our weekly schedule
 
 | Week | Dates | What we're working on |
@@ -49,6 +47,5 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | [research](research/) | Research sources and modeling assumptions |
 | [results](results/) | Reviewed graphs and findings |
 | [meetings](meetings/) | Meeting notes and decisions |
-| [PROJECT_GUIDE.md](PROJECT_GUIDE.md) | Project schedule and team guide |
 | [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) | How to submit work |
 
