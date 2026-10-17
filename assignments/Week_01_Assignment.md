@@ -234,23 +234,24 @@ Hint: compute new exposures, new infectious cases, and new recoveries from the p
 
 ### Example chart layouts
 
-These are **illustrations, not real results**. Your curves may look different. Use the actual day and infected values shared by Teammates 2 and 3.
+These are **illustrations, not real results**. Your curves may look different. Use the actual daily results shared by Teammates 2 and 3.
 
-**SIR chart**
+**SIR chart — show all three groups**
 
-![Illustrative SIR line chart, with Day on the x-axis and Infected people on the y-axis](visuals/sir_example.svg)
+![Illustrative SIR chart showing Susceptible, Infected, and Recovered people over time](visuals/sir_example.svg)
 
-**SEIR chart**
+**SEIR chart — show all four groups**
 
-![Illustrative SEIR line chart, with Day on the x-axis and Infected people on the y-axis](visuals/seir_example.svg)
+![Illustrative SEIR chart showing Susceptible, Exposed, Infected, and Recovered people over time](visuals/seir_example.svg)
 
 Ask Teammates 2 and 3 for their saved daily results. You do not need to write the simulations yourself.
 
-1. Make one line chart showing **infected people over time** for SIR.
-2. Make another line chart showing **infected people over time** for SEIR.
-3. Label the horizontal axis **Day** and the vertical axis **Infected**, and give each chart a title.
+1. Make **one SIR line chart** with three lines: **Susceptible (S)**, **Infected (I)**, and **Recovered (R)**, using Teammate 2's results.
+2. Make **one SEIR line chart** with four lines: **Susceptible (S)**, **Exposed (E)**, **Infected (I)**, and **Recovered (R)**, using Teammate 3's results.
+3. Label the horizontal axis **Day (0–30)** and the vertical axis **Number of people (0–100)**. Give each chart a clear title and a legend. Use a different color for each group.
+4. **Do not make up data to match the examples.** Your lines should come from the actual simulations. They may look different from the pictures.
 
-**Hint:** Start with `import matplotlib.pyplot as plt`. Use `plt.plot(days, infected_values)` to draw the line, `plt.xlabel()` and `plt.ylabel()` for the axes, and `plt.show()` to display it. Ask for the lists of days and infected values if you do not have them.
+**Hint:** Start with `import matplotlib.pyplot as plt`. Use `plt.plot(days, susceptible, label="Susceptible")` and repeat for the other groups. Add `plt.xlabel()`, `plt.ylabel()`, `plt.legend()`, and `plt.show()`.
 
 ```python
 # YOUR CODE GOES HERE: SIR and SEIR charts
