@@ -4,11 +4,42 @@ We are starting from scratch. During Week 1, we will learn two disease models, p
 
 ## What are SIR and SEIR?
 
-SIR divides 100 people into Susceptible (S), Infected (I), and Recovered (R). Starting values: S=99, I=1, R=0. People move from S to I to R.
+SIR divides 100 people into Susceptible (S), Infected (I), and Recovered (R). Starting values:
 
-SEIR adds Exposed (E), a group infected but not yet infectious in our simplified model. People move from S to E to I to R. SEIR starts at S=99, E=0, I=1, R=0.
+```math
+\begin{aligned}
+S &= 99 \\
+I &= 1 \\
+R &= 0
+\end{aligned}
+```
 
-In SIR, S+I+R=100. In SEIR, S+E+I+R=100. We assume no births, deaths, or reinfections. The exposed stage does not necessarily equal the real disease incubation period.
+People move from S to I to R.
+
+SEIR adds Exposed (E), a group infected but not yet infectious in our simplified model. People move from S to E to I to R. SEIR starts at:
+
+```math
+\begin{aligned}
+S &= 99 \\
+E &= 0 \\
+I &= 1 \\
+R &= 0
+\end{aligned}
+```
+
+In SIR:
+
+```math
+S + I + R = 100
+```
+
+In SEIR:
+
+```math
+S + E + I + R = 100
+```
+
+We assume no births, deaths, or reinfections. The exposed stage does not necessarily equal the real disease incubation period.
 
 ## Worked Python example
 
@@ -37,11 +68,28 @@ R = 0
 
 ## How a day changes
 
-In the simple SIR model, beta controls transmission and gamma controls recovery. For practice, let beta=0.30 and gamma=0.10. These are assumptions, not values for a particular disease.
+In the simple SIR model, beta controls transmission and gamma controls recovery. For practice:
 
-New infections = beta * S * I / population.
+```math
+\begin{aligned}
+\beta &= 0.30 \\
+\gamma &= 0.10
+\end{aligned}
+```
 
-New recoveries = gamma * I.
+These are assumptions, not values for a particular disease.
+
+New infections:
+
+```math
+\text{New infections} = \frac{\beta S I}{\text{population}}
+```
+
+New recoveries:
+
+```math
+\text{New recoveries} = \gamma I
+```
 
 Calculate both from the old values before updating S, I and R. S loses new infections, I gains new infections and loses recoveries, and R gains recoveries. Decimal results are expected quantities in this mathematical model, not fractions of real people.
 
@@ -59,9 +107,31 @@ print(round(S,3), round(I,3), round(R,3))
 
 ## What changes for SEIR?
 
-SEIR adds sigma, which controls how quickly exposed people move to the infectious group. We'll use sigma=0.25 per day for practice.
+SEIR adds sigma, which controls how quickly exposed people move to the infectious group. For practice, we use:
 
-Daily changes are: S to E = beta*S*I/population, E to I = sigma*E, and I to R = gamma*I.
+```math
+\sigma = 0.25\ \text{per day}
+```
+
+Daily changes are:
+
+From S to E:
+
+```math
+\text{New exposures} = \frac{\beta S I}{\text{population}}
+```
+
+From E to I:
+
+```math
+\text{New infectious cases} = \sigma E
+```
+
+From I to R:
+
+```math
+\text{New recoveries} = \gamma I
+```
 
 Hint: updated E equals previous E plus new exposures minus people moving into I. Compute all three changes before updating the four groups.
 
