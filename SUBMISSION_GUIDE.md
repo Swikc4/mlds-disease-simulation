@@ -56,33 +56,29 @@ If `git switch` is not recognized, ask for help updating Git.
 
 **Do not overwrite another person's work.** The project manager will organize approved contributions into the final weekly notebook.
 
-## How to submit graphs (Teammate 4)
+## How to submit charts and images
 
-After writing and running your Python graph code, you need to submit **your code and two graph images together**. Use your own branch, not `main`.
+If your assignment includes a chart, graph, or other image, submit the image **together with the code or work used to create it**. Follow the same steps regardless of your role.
 
-1. In Python, save the SIR graph as `sir_graph.png` and the SEIR graph as `seir_graph.png`. Matplotlib's `savefig()` function saves a graph as an image. Save each graph before closing it.
-2. On your computer, open the cloned project folder and place both image files inside its `results/` folder. Keep your Python work saved on your own branch too.
-3. From Terminal inside the project folder, check which branch you are on and what files changed:
+1. **Save your images.** Export each chart as a PNG image with a clear filename, such as `my_chart.png`. If you use Matplotlib, `savefig()` can save the image.
+2. **Put the files in the right folder.** Save chart images in the project's `results/` folder. Keep your Python code or notebook in the appropriate project folder on your own branch.
+3. **Check your changes.** In Terminal, inside the cloned project folder, run:
 
 ```bash
 git branch --show-current
 git status
 ```
 
-4. Add **both** images and your Python file (replace the example file path with the actual path you worked on):
+4. **Submit your work.** Follow Step 5 below to add, commit, and push your files. For example, replace the filenames with your actual files:
 
 ```bash
-git add results/sir_graph.png results/seir_graph.png
-git add path/to/your-python-file
-git commit -m "Add Week 1 SIR and SEIR graphs"
-git push -u origin yourname-week01-task
+git add results/my_chart.png
+git add path/to/your-code-file
 ```
 
-Replace `yourname-week01-task` with the name of your current branch. If your code is in a notebook, use the actual notebook path instead of `path/to/your-python-file`.
+5. **Open a pull request.** Follow Step 6 and check that the **Files changed** tab includes your images and related work. The project manager will review everything before merging.
 
-5. Open a pull request as explained in Step 6. Check that the **Files changed** tab includes your code and both images. The project manager will review them before merging.
-
-**GitHub website option:** If the images are already on your computer and you prefer uploading them in your browser, switch to **your branch** on GitHub, open `results/`, choose **Add file**, then **Upload files**. Drag in the two PNG files and commit to your branch. You still need to submit your Python code and open a pull request.
+**Prefer the GitHub website?** Switch to **your own branch**, open the `results/` folder, choose **Add file**, then **Upload files**. Upload your images and commit them to your branch. Make sure your related code is also committed, then open a pull request.
 
 ## Step 5: Save and upload your changes
 
