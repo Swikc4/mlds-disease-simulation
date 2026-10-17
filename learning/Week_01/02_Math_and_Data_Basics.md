@@ -1,7 +1,5 @@
 # Week 1 Math and Data Basics
 
-You do **not** need advanced statistics to start. Learn the meaning of a number before worrying about difficult formulas. Examples below use everyday situations, not answers to the project.
-
 ## 1. Counts vs. proportions
 A **count** is how many: 12 students.
 A **proportion** is a part of a total: if 12 of 30 students brought lunch, the proportion is `12 / 30 = 0.4`.
