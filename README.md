@@ -20,7 +20,7 @@ This is an educational simulation, not a medical prediction tool.
 
 Each week, we will divide the work among five teammates, with me coordinating the project, reviewing pull requests, and helping combine the approved work into **one final weekly Jupyter notebook**. Roles will be decided together and rotated as we learn.
 
-Dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md). Our first assignment covers both SIR and SEIR during October 17 to 23. We'll confirm the deadline with everyone at our first meeting.
+Project dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md).
 
 ## Our weekly schedule
 
