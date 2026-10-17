@@ -33,7 +33,7 @@ We will share learning materials and go through the steps as we reach each part 
 ## Project materials
 
 - [Project overview and weekly schedule](../README.md)
-- [Week 1 assignment: SIR and SEIR](../assignments/Week_01_Assignment.ipynb)
+- [Week 1 assignment: SIR and SEIR](../assignments/Week_01_Assignment.md)
 - [How to submit work](../CONTRIBUTING.md)
 - [Research guide](../research/README.md)
 
