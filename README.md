@@ -42,8 +42,8 @@ These dates are our proposed plan. We'll adjust them as needed after our team me
 | :--- | :--- |
 | [assignments](assignments/) | Weekly assignments and instructions |
 | [learning](learning/) | Learning resources for each stage of the project, including coding, graphs, and modeling |
-| [our_work/assignments](our_work/assignments/) | Final weekly notebooks |
-| [our_work/explanations](our_work/explanations/) | Team members' written explanations |
+| [team_contributions/final_assignments](team_contributions/final_assignments/) | Final weekly notebooks |
+| [team_contributions/written_explanations](team_contributions/written_explanations/) | Team members' written explanations |
 | [research](research/) | Research sources and modeling assumptions |
 | [results](results/) | Reviewed graphs and findings |
 | [meetings](meetings/) | Meeting notes and decisions |

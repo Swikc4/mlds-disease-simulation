@@ -51,7 +51,7 @@ If `git switch` is not recognized, ask for help updating Git.
 
 1. Open the assignment and read what your chosen task requires.
 2. Work in your own files on your branch. Keep explanations clear enough that someone new to Python can follow them.
-3. Put individual written explanations in `our_work/explanations/`. Keep work related to notebooks or code in an appropriate project folder, without changing a teammate's files.
+3. Put individual written explanations in `team_contributions/written_explanations/`. Keep work related to notebooks or code in an appropriate project folder, without changing a teammate's files.
 4. Run your code and check that it works before submitting. If you used an outside source or tool, acknowledge it in your explanation.
 
 **Do not overwrite another person's work.** The project manager will organize approved contributions into the final weekly notebook.
@@ -104,8 +104,8 @@ Your existing pull request will update automatically. You do not need to open an
 | :--- | :--- |
 | Current assignment instructions | `assignments/` |
 | Your code or notebook changes | Your branch and pull request |
-| Your written explanation | `our_work/explanations/` |
-| Approved final weekly notebook | `our_work/assignments/` |
+| Your written explanation | `team_contributions/written_explanations/` |
+| Approved final weekly notebook | `team_contributions/final_assignments/` |
 | Reviewed graphs and findings | `results/` |
 
 ## Before submitting
