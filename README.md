@@ -38,14 +38,6 @@ Project dates and deliverables are in [PROJECT_GUIDE.md](PROJECT_GUIDE.md).
 
 These dates are our proposed plan. We'll adjust them as needed after our team meetings.
 
-## Quick links
-
-[Current assignment](assignments/Week_01_Assignment.ipynb)  
-[Research sources](research/README.md)  
-[Learning Materials](learning/README.md)  
-[How to submit work](CONTRIBUTING.md)  
-[Meeting agendas and notes](meetings/)
-
 ## Project directories
 
 | Folder or file | Purpose |
