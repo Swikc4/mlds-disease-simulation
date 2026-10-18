@@ -90,39 +90,53 @@ If `git switch` is not recognized, ask for help updating Git.
 
 ## How to submit your written assignment
 
-Everyone has a Markdown file in [written_explanations](team_contributions/written_explanations/).
+Each teammate has **one personal Markdown file** in [written_explanations](team_contributions/written_explanations/). Use the **same file every week**. Do not create another file for Week 2 or Week 3.
 
-| Person | File |
+| Teammate | Your file |
 | :--- | :--- |
-| Ayush | `Ayush.md` |
-| Jayden | `Jayden.md` |
-| Ei Kay | `Ei_Kay.md` |
-| Alex | `Alex.md` |
-| Linh | `Linh.md` |
+| Ayush | [Ayush.md](team_contributions/written_explanations/Ayush.md) |
+| Jayden | [Jayden.md](team_contributions/written_explanations/Jayden.md) |
+| Ei Kay | [Ei_Kay.md](team_contributions/written_explanations/Ei_Kay.md) |
+| Alex | [Alex.md](team_contributions/written_explanations/Alex.md) |
+| Linh | [Linh.md](team_contributions/written_explanations/Linh.md) |
 
-### GitHub website
+In your file, add a new heading for each week and write your answers underneath. Keep your previous weeks' work. For example:
 
-1. Switch to **your own branch** in GitHub.
-2. Open `team_contributions/written_explanations/` and click **your name**.
-3. Click the pencil icon (**Edit this file**). Write your answers below the questions already there.
-4. Click **Commit changes** and save the edits to **your branch**.
-5. Open a pull request to `main`. Include your written file and any notebook or graph changes for your task.
+```markdown
+# Ayush
 
-### Terminal
+## Week 1 Assignment
 
-1. Switch to your branch and open your named `.md` file in any text editor.
-2. Fill in the answers, then save the file.
-3. In Terminal, replace `YOUR_NAME` with your exact file name (for example, `Ei_Kay`):
+Write your Week 1 answers here.
+
+## Week 2 Assignment
+
+Write your Week 2 answers here.
+```
+
+### Option A: GitHub website
+
+1. Switch from `main` to **your own branch**.
+2. Open `team_contributions/written_explanations/` and select your named file.
+3. Click the pencil icon to edit it. Add `## Week 1 Assignment` and write your answers below. For future weeks, add `## Week 2 Assignment`, `## Week 3 Assignment`, and so on underneath.
+4. Click **Commit changes** and commit to **your branch**.
+5. Open a pull request to `main` for review. Include your written assignment and any code or graphs you completed.
+
+### Option B: Terminal
+
+1. In your cloned repository, switch to your own branch.
+2. Open your named `.md` file in a text editor. Add your weekly heading and answers, then save it.
+3. Stage your file, commit, and push. Replace `YOUR_NAME` and the branch name with yours:
 
 ```bash
 git add team_contributions/written_explanations/YOUR_NAME.md
-git commit -m "Complete Week 1 written assignment"
+git commit -m "Add my Week 1 written assignment"
 git push -u origin yourname-week01-task
 ```
 
-4. Open a pull request to `main`. Include your written file along with the code or graphs you completed.
+4. Open a pull request to `main` for review.
 
-**Important:** Edit only your own Markdown file. Do not put the written response in the assignment notebook or edit someone else's file.
+**Remember:** Your named file is for all your weekly written assignments. Only edit your own file, and never erase previous weeks.
 
 ## How to submit charts and images
 
