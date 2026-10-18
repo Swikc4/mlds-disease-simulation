@@ -45,107 +45,27 @@ written_explanations/
 
 Week 1 files already exist. The Week 2 and Week 3 filenames above only illustrate the future structure. Create them when those weeks are assigned.
 
-## 2. Two ways to submit, side by side
+## 2. Submit your assignment: choose one method
 
-| Step | Method A: GitHub website | Method B: Terminal and Git |
+| Step | GitHub website | Terminal and Git |
 | :--- | :--- | :--- |
-| 1. Start | Sign in to [GitHub](https://github.com/), accept your collaboration invitation, and open [the repository](https://github.com/Swikc4/mlds-disease-simulation). | Install [Git](https://git-scm.com/downloads). Open Terminal, clone the repository once, and enter its folder. |
-| 2. Make a branch | Above the repository file list, click `main`. Type a name such as `jayden-week01` and select `Create branch`. Make sure the selector now shows your branch. | Run `git switch main`, `git pull origin main`, then `git switch -c jayden-week01`. Use your own branch name. |
-| 3. Write answers | On your branch, open `team_contributions`, then `written_explanations`, then your name, then `Week_01.md`. Click the pencil icon, write answers, and click `Commit changes` to your branch. | Open your personal `Week_01.md` in a text editor, write answers, and save. Stage the file with `git add`. |
-| 4. Add code or graphs | Run the notebook in a notebook editor, then save it. On your branch, open the correct folder, click `Add file` then `Upload files` and commit. Upload graph PNG files into `results/`. | Run and save the notebook locally. Put PNG graphs in `results/`. Stage each changed code or image file with `git add`. |
-| 5. Save changes | After each edit or upload, click `Commit changes` and ensure the commit is made to your branch, not `main`. | Run `git status`, then `git commit -m "Complete Week 1 assignment"` and `git push -u origin jayden-week01`. |
-| 6. Submit for review | Select `Compare & pull request`, or open `Pull requests` then `New pull request`. Set base to `main` and compare to your branch. | After pushing, open the repository in a web browser. Select `Compare & pull request`, or open `Pull requests` then `New pull request`. |
-| 7. Finish | Check `Files changed` includes your written file and any code or graphs, then click `Create pull request`. Do not merge. | Check `Files changed` includes your written file and any code or graphs, then click `Create pull request`. Do not merge. |
+| 1. Open the project | Sign in to [GitHub](https://github.com/), accept your invitation, and open [our repository](https://github.com/Swikc4/mlds-disease-simulation). | Install [Git](https://git-scm.com/downloads). The first time, run `git clone https://github.com/Swikc4/mlds-disease-simulation.git` and then `cd mlds-disease-simulation`. If you already cloned it, open that existing folder. |
+| 2. Make your branch | Click the `main` branch selector above the files. Type `jayden-week01` and click `Create branch`. Confirm the selector shows your branch, not `main`. | Run `git switch main`, then `git pull origin main`, then `git switch -c jayden-week01`. Check with `git branch --show-current`. |
+| 3. Write your answers | While on your branch, click `team_contributions` → `written_explanations` → your name → `Week_01.md`. Click the pencil icon, answer the questions at the bottom of the Week 1 notebook, then click `Commit changes` and choose your branch. | Open `team_contributions/written_explanations/Jayden/Week_01.md` in a text editor, type your answers, and save. Stage it with `git add team_contributions/written_explanations/Jayden/Week_01.md`. |
+| 4. Submit code or graphs | Run your code in Jupyter or another notebook editor and save the `.ipynb` file. On your branch, open its destination folder, click `Add file` → `Upload files`, select it, then `Commit changes`. Upload graph `.png` files to `results/`. | Save and run your notebook locally. Stage files you actually changed, for example `git add assignments/Week_01_Assignment.ipynb` or `git add results/your_graph.png`. |
+| 5. Save your changes | For every edited or uploaded file, confirm `Commit changes` saves to your branch, not `main`. | Run `git status`, then `git commit -m "Complete Week 1 work"`, then `git push -u origin jayden-week01`. |
+| 6. Open a pull request | Click `Compare & pull request`. If it is not shown, go to `Pull requests` → `New pull request`. Set base to `main` and compare to your branch. | After pushing, open [the repository](https://github.com/Swikc4/mlds-disease-simulation) in a browser. Click `Compare & pull request` or `Pull requests` → `New pull request`. Set base to `main` and compare to your branch. |
+| 7. Check and submit | Open `Files changed` to check your written file and any code or graphs. Click `Create pull request` and wait for review. Do not merge it. | Check `Files changed` for your files. Click `Create pull request` and wait for review. Do not merge it. |
 
-Read the specific instructions for your chosen method below.
+The branch `jayden-week01` and the file `Jayden/Week_01.md` are examples. Replace Jayden with your own name and use the current week. You only need one submission method.
 
-## 3. Method A: GitHub website instructions
+### For the next week
 
-### Edit your weekly written assignment
+Create a new branch from the latest `main`. Keep the same personal folder but create a separate file, such as `Week_02.md` or `Week_03.md`. On the website, open your personal folder and click `Add file` → `Create new file`. In Terminal, create the new file in that folder with a text editor and stage it with `git add`. Never delete your earlier assignments.
 
-1. Start from the repository homepage. Check the branch selector above the file list. It must show your branch, not `main`.
-2. Click `team_contributions` → `written_explanations` → your own name → `Week_01.md`.
-3. Click the pencil icon labeled `Edit this file`.
-4. Under `## Week 1 Assignment`, type your answers to the questions at the end of the Week 1 notebook.
-5. Click `Commit changes`. Enter a message such as `Add my Week 1 answers`. Select your current branch and confirm.
-6. Return to the repository, then open a pull request to `main` after your code or other work is ready.
+If your pull request needs corrections, edit the same branch and commit again. For Terminal, run `git add` for the corrected file, `git commit -m "Fix review feedback"`, and `git push`. Your existing pull request updates automatically.
 
-### For Week 2 and later
-
-1. Switch to a new branch created from the updated `main` branch.
-2. Open your personal folder, for example `written_explanations/Ayush/`.
-3. Click `Add file` → `Create new file`.
-4. Name the new file `Week_02.md` (or `Week_03.md` for Week 3).
-5. Type a heading such as `# Ayush: Week 2 Assignment`, then answer that week's questions.
-6. Click `Commit changes` to your branch and open a pull request for review.
-
-Never erase or replace another week's file.
-
-### Submit your Python notebook or graphs
-
-The GitHub file preview is not a Python notebook editor. Use a notebook editor such as Jupyter or Google Colab to run and save your code first, then upload the saved `.ipynb` file to your branch. GitHub Codespaces may also allow you to work in an editor in your browser if enabled.
-
-For example, Jayden's SIR code belongs in `assignments/Week_01_Assignment.ipynb`; Alex's graph images belong in `results/`. If multiple teammates edit the same notebook, the project leader must review and combine the changes. Do not overwrite a teammate's work on `main`.
-
-To upload on GitHub, open the destination folder on your branch, choose `Add file` → `Upload files`, select the saved file, then `Commit changes`. Check your pull request's `Files changed` tab to confirm the files are there.
-
-## 4. Method B: Terminal instructions
-
-### First time only: get the project
-
-Run one command at a time:
-
-```bash
-git clone https://github.com/Swikc4/mlds-disease-simulation.git
-cd mlds-disease-simulation
-```
-
-If you already cloned it, open Terminal inside your existing project folder instead.
-
-### Create your assignment branch
-
-```bash
-git switch main
-git pull origin main
-git switch -c jayden-week01
-git branch --show-current
-```
-
-Replace `jayden-week01` with your own name and week. Create a new branch for the next assignment. Do not work directly on `main`.
-
-### Write and save your work
-
-Open your personal file, such as `team_contributions/written_explanations/Jayden/Week_01.md`, in a text editor. Write answers and save it. Finish and save your code or graph files as well.
-
-Stage the exact files you changed. Example for Jayden:
-
-```bash
-git add team_contributions/written_explanations/Jayden/Week_01.md
-git add assignments/Week_01_Assignment.ipynb
-git status
-git commit -m "Complete Week 1 work"
-git push -u origin jayden-week01
-```
-
-Only stage the notebook if you actually edited it. Replace paths and the branch with your own. For Alex, stage his graph images with `git add results/your_graph.png`.
-
-For a future week, create a new `Week_02.md` file in your existing personal folder, then stage and commit that new file. Keep `Week_01.md`.
-
-### Open a pull request
-
-After pushing, open the repository in a browser. Click `Compare & pull request` or `Pull requests` → `New pull request`. Set base to `main`, compare to your branch, check `Files changed`, and click `Create pull request`.
-
-If you need to correct something later, keep the same branch, make the changes, then run:
-
-```bash
-git add path/to/changed-file
-git commit -m "Fix review feedback"
-git push
-```
-
-The same pull request will update.
-
-## 5. Final check before submitting
+## 3. Final check before submitting
 
 1. Your branch is not `main`.
 2. Your written answers are in `YOUR_NAME/Week_01.md`, or the matching file for your assigned week.
