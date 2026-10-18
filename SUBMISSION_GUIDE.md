@@ -88,6 +88,42 @@ If `git switch` is not recognized, ask for help updating Git.
 
 **Do not overwrite another person's work.** The project manager will organize approved contributions into the final weekly notebook.
 
+## How to submit your written assignment
+
+Everyone has a Markdown file in [written_explanations](team_contributions/written_explanations/).
+
+| Person | File |
+| :--- | :--- |
+| Ayush | `Ayush.md` |
+| Jayden | `Jayden.md` |
+| Ei Kay | `Ei_Kay.md` |
+| Alex | `Alex.md` |
+| Linh | `Linh.md` |
+
+### GitHub website
+
+1. Switch to **your own branch** in GitHub.
+2. Open `team_contributions/written_explanations/` and click **your name**.
+3. Click the pencil icon (**Edit this file**). Write your answers below the questions already there.
+4. Click **Commit changes** and save the edits to **your branch**.
+5. Open a pull request to `main`. Include your written file and any notebook or graph changes for your task.
+
+### Terminal
+
+1. Switch to your branch and open your named `.md` file in any text editor.
+2. Fill in the answers, then save the file.
+3. In Terminal, replace `YOUR_NAME` with your exact file name (for example, `Ei_Kay`):
+
+```bash
+git add team_contributions/written_explanations/YOUR_NAME.md
+git commit -m "Complete Week 1 written assignment"
+git push -u origin yourname-week01-task
+```
+
+4. Open a pull request to `main`. Include your written file along with the code or graphs you completed.
+
+**Important:** Edit only your own Markdown file. Do not put the written response in the assignment notebook or edit someone else's file.
+
 ## How to submit charts and images
 
 If your assignment includes a chart, graph, or other image, submit the image **together with the code or work used to create it**. Use Method A or Method B above.
@@ -160,7 +196,7 @@ Your existing pull request will update automatically. You do not need to open an
 | :--- | :--- |
 | Current assignment instructions | `assignments/` |
 | Your code or notebook changes | Your branch and pull request |
-| Your written explanation | `team_contributions/written_explanations/` |
+| Your written explanation | Your named `.md` file inside `team_contributions/written_explanations/` |
 | Approved final weekly notebook | `team_contributions/final_assignments/` |
 | Reviewed graphs and findings | `results/` |
 
@@ -168,6 +204,7 @@ Your existing pull request will update automatically. You do not need to open an
 
 - [ ] I worked on my own branch.
 - [ ] I saved and checked my work.
+- [ ] I completed my named Markdown file in `team_contributions/written_explanations/`.
 - [ ] I explained what I did in my own words.
 - [ ] I committed my work to my branch (and pushed it if I used Terminal).
 - [ ] I opened a pull request to `main`.
