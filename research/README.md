@@ -2,6 +2,14 @@
 
 Sources for our disease simulation project, organized by disease.
 
+## Mathematical Foundation: SIR and SEIR Models
+
+- **Kermack, W. O., & McKendrick, A. G. (1927).** *A Contribution to the Mathematical Theory of Epidemics.* Proceedings of the Royal Society of London. Series A, **115**(772), 700–721. https://doi.org/10.1098/rspa.1927.0118
+
+  This foundational paper develops a mathematical framework for epidemic spread and is a primary historical reference for SIR-type compartmental models. Our basic SIR model divides people into susceptible (S), infectious (I), and removed/recovered (R) groups. The SEIR model adds an exposed (E) group; it is a later extension, not a model specifically presented in this 1927 paper.
+
+  **Important:** The paper supports the mathematical approach, **not** our classroom parameter choices. Values such as beta = 0.30/day, gamma = 0.10/day, and sigma = 0.20/day are **teaching assumptions**, not values taken from this paper or measured for a particular disease.
+
 ## Measles
 
 - [Review of measles reproduction numbers](https://pmc.ncbi.nlm.nih.gov/articles/PMC6302597/)
