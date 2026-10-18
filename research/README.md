@@ -8,6 +8,8 @@ Sources for our disease simulation project, organized by disease.
 
 The researchers developed mathematical equations to understand how epidemics spread and decline. On **page 714**, they compared their model with **weekly plague deaths in Bombay, India, during 1905–1906**. Their work helped establish the SIR model. SEIR was developed later.
 
+**SEIR historical source:** Burke, D. S. (2024). *Origins of the problematic E in SEIR epidemic models.* [Read the paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11024649/). This discusses why an exposed stage was introduced to represent the delay between infection and becoming infectious.
+
 **Note:** The paper does not provide default beta, gamma, or sigma values for our simulation. Record where any values you use come from.
 
 ## Measles
