@@ -4,15 +4,11 @@ Sources for our disease simulation project, organized by disease.
 
 ## Mathematical Foundation: SIR and SEIR Models
 
-- **Kermack, W. O., & McKendrick, A. G. (1927).** *A Contribution to the Mathematical Theory of Epidemics.* *Proceedings of the Royal Society of London. Series A*, **115**(772), 700–721. [Original paper DOI](https://doi.org/10.1098/rspa.1927.0118) | [Read the original paper (PDF)](https://pdodds.w3.uvm.edu/files/papers/others/1927/kermack1927a.pdf)
+**Kermack, W. O., & McKendrick, A. G. (1927).** *A Contribution to the Mathematical Theory of Epidemics.* *Proceedings of the Royal Society A*, **115**, 700–721. [Original paper](https://doi.org/10.1098/rspa.1927.0118) | [PDF](https://pdodds.w3.uvm.edu/files/papers/others/1927/kermack1927a.pdf)
 
-  **What the authors investigated:** They developed a mathematical explanation for how epidemics spread and eventually decline. Their work became a foundation for SIR-style models. SEIR is a later extension, not a model introduced in this paper.
+The researchers developed mathematical equations to understand how epidemics spread and decline. On **page 714**, they compared their model with **weekly plague deaths in Bombay, India, during 1905–1906**. Their work helped establish the SIR model. SEIR was developed later.
 
-  **Historical example in the paper (page 714):** The authors compared their mathematical epidemic curve with **weekly deaths from plague on the island of Bombay (now Mumbai), India, from December 17, 1905, to July 21, 1906**. Their figure shows the observed death counts and a calculated curve. This is the source for the Bombay plague facts in the Week 1 assignment.
-
-  **Important distinction:** These figures are *plague deaths*, not daily counts of susceptible, exposed, or infectious individuals. Their general mathematical theory was not specific to plague. The simple SIR model also does not reproduce every detail of plague transmission involving rats and fleas.
-
-  **Parameters:** The paper supports the modeling framework, but it does not supply default beta, gamma, or sigma values for our classroom simulation. Any numerical values used in our work must be identified as sourced, derived, or assumed.
+**Note:** The paper does not provide default beta, gamma, or sigma values for our simulation. Record where any values you use come from.
 
 ## Measles
 
