@@ -8,7 +8,6 @@ In 1927, scientists **William O. Kermack and A. G. McKendrick** published an imp
 
 The **SEIR model** extends this basic idea by adding an **Exposed** group for people who have been infected but are not yet infectious. These models help us understand how infections move through a population. Our Week 1 simulation is a simplified learning example, not a prediction of a real outbreak.
 
-![SIR and SEIR model flow diagrams](visuals/sir_seir_overview.svg)
 
 ## What are SIR and SEIR?
 
@@ -261,17 +260,6 @@ Create two line graphs in Python using `matplotlib`. You do not need to build th
 **SIR graph:** Show three lines for Susceptible (S), Infected (I), and Recovered (R).
 
 **SEIR graph:** Show four lines for Susceptible (S), Exposed (E), Infected (I), and Recovered (R).
-
-### Example Graph Layouts
-
-**SIR Example**
-
-![Example SIR graph with three groups](visuals/sir_example.svg)
-
-**SEIR Example**
-
-![Example SEIR graph with four groups](visuals/seir_example.svg)
-
 
 Use your teammates' actual daily simulation results. The shape of the lines may vary.
 
