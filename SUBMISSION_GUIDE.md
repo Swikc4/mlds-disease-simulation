@@ -18,6 +18,10 @@ Inside your folder, open `Week_01.md` for Week 1. For Week 2, create `Week_02.md
 
 Simulation, graph, and test code belongs in the assigned notebook or code file. Save graph images in `results/`.
 
+**Notebook filename:** For Week 1, everyone uses `assignments/Week_01_Assignment.ipynb` on their own branch. Keep the full notebook, including the instructions and all sections, and complete only your assigned section. Keep the original filename; do not add your name or create a separate notebook for your part. Your branch name identifies your submission. The separate personal files described above are for written answers.
+
+The project leader reviews and merges each contribution into the shared notebook. GitHub may combine changes to different sections automatically, but notebook conflicts can require the leader's help. Different notebook filenames remain separate files when merged. After combining and running everyone's work, the leader saves one complete final weekly notebook in `team_contributions/final_assignments/`.
+
 ## 2. Option A: GitHub website
 
 This option does not require Terminal.
@@ -44,8 +48,8 @@ For future weeks, open your personal folder, click `Add file` then `Create new f
 
 ### Step 3. Add your code or graphs
 
-1. Complete and run your Python code in Jupyter, Colab, or another notebook editor.
-2. Save your completed notebook as an `.ipynb` file.
+1. Open the full weekly assignment notebook in Jupyter, Colab, or another notebook editor. Complete and run only your assigned section, keeping the instructions and other sections in place.
+2. Save it with its original filename: `Week_01_Assignment.ipynb` for Week 1.
 3. On GitHub, switch to your own branch and open the `assignments/` folder.
 4. Click `Add file` then `Upload files`.
 5. Select your saved notebook and click `Commit changes` to your branch.
@@ -105,7 +109,7 @@ git branch --show-current
 
 1. Open your personal `Week_01.md` file in a text editor. For example, Jayden's file is in `team_contributions/written_explanations/Jayden/`.
 2. Write your answers and save the file.
-3. Complete and save your assigned notebook or Python file. Save graph PNG images in `results/` if required.
+3. For Week 1, open `assignments/Week_01_Assignment.ipynb`, complete only your assigned section, and save the full notebook with the same filename. Keep the instructions and other sections in place. Save graph PNG images in `results/` if required.
 
 ### Step 4. Save your changes to GitHub
 
