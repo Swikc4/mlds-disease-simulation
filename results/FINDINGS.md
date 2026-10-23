@@ -9,10 +9,10 @@ We'll write up our results after the models are completed and checked.
 **Final notebook:** To be added after review
 
 **SIR chart:**
-![SIR Model Curve](SIR Graph.png)
+![alt text](<SIR Graph-1.png>)
 
 **SEIR chart:**
-![SEIR Model Curve](SEIR Graph.png)
+![alt text](<SEIR Graph-2.png>)
 
 **What we observed:** To be written after running both models
 
