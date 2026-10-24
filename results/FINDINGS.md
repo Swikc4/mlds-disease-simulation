@@ -8,9 +8,13 @@ We'll write up our results after the models are completed and checked.
 
 **Final notebook:** To be added after review
 
-**SIR chart:** Not yet completed
+**SIR chart:**
 
-**SEIR chart:** Not yet completed
+![alt text](<SIR Graph-1.png>)
+
+**SEIR chart:**
+
+![alt text](<SEIR Graph-2.png>)
 
 **What we observed:** To be written after running both models
 
@@ -19,3 +23,4 @@ We'll write up our results after the models are completed and checked.
 **Assumptions and limitations:** To be completed
 
 We will add new sections as the group progresses. Simulated outbreak curves are not real patient observations.
+
