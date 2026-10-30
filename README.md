@@ -1,62 +1,89 @@
 # How Diseases Really Spread
 
-**ML & Data Science Club, Baruch College**  
-**Status: Planning**  
-**Planned showcase: December 10, 2026**
+**Machine Learning & Data Science Club | Baruch College**
 
-This is our shared group project. We have six members, including me. We have not started building the simulation yet, and we'll update this page as our work progresses.
+**Project completion:** December 5, 2026  
+**Final showcase:** December 10, 2026
 
-## Research question
+## About the Project
 
-Why do some diseases spread much faster than others, and what slows each one down the most?
+This project explores how infectious diseases spread through a simulated population. We begin with the SIR and SEIR mathematical models, then develop a virtual town of 100 people where infections spread through daily interactions.
 
-## What we plan to build
+We will use the simulation to compare measles, influenza, and COVID-19. We will also introduce interactive controls for vaccination and isolation, visualize the resulting outbreaks, and apply basic machine learning techniques to analyze simulation results.
 
-We will start with the SIR and SEIR models and then build a virtual town to explore how measles, influenza, and COVID 19 spread. Later, we plan to add vaccination and isolation controls, charts, and basic machine learning. If time allows, we'll compare historical observations and try another machine learning model.
+Our goal is to understand why some diseases spread faster than others and explore which interventions reduce transmission in our model.
 
 This is an educational simulation, not a medical prediction tool.
 
-## How we will work
+## Project Development
 
-Each week, we will divide the work among five teammates, with me coordinating the project, reviewing pull requests, and helping combine the approved work into **one final weekly Jupyter notebook**. Roles will be decided together and rotated as we learn.
+Our project consists of five main components:
 
-## How to submit your work
+1. **SIR and SEIR Models:** Build mathematical models to understand how susceptible, exposed, infectious, and recovered populations change over time.
+2. **Virtual Town Simulation:** Simulate 100 residents interacting daily and track how infections spread over 60 days.
+3. **Disease Comparison:** Research measles, influenza, and COVID-19 using scientific sources and compare simulated outbreak patterns.
+4. **Interactive Visualization:** Add vaccination and isolation controls, animated town displays, and outbreak graphs.
+5. **Machine Learning:** Use linear regression and decision trees to analyze simulation outcomes and compare predicted results with actual simulation results.
 
-Choose whichever method works best for you:
+All disease parameters will be documented using scientific references, calculations, or clearly identified modeling assumptions.
 
-1. **GitHub Website (beginner friendly):** Create your own branch, upload or edit your files on GitHub, and open a pull request. No Terminal needed.
-2. **Terminal and Git:** Clone the repository, work on your own branch, commit and push your files, then open a pull request.
+## Team Collaboration
 
-**For both methods:** Submit your work on your own branch and wait for the project manager to review your pull request before merging. If your task includes charts, submit the images along with the code used to create them.
+Our team consists of five contributors and one project leader. Responsibilities rotate weekly so everyone gains experience with research, programming, visualization, and testing.
 
-Follow the [Submission Guide](SUBMISSION_GUIDE.md) for step by step instructions.
+Each contributor works on a separate GitHub branch and submits a pull request for review. Approved contributions are combined into the final weekly Jupyter notebook.
 
-## Our weekly schedule
+## Weekly Schedule
 
-| Week | Dates | What we're working on |
-| :--- | :--- | :--- |
-| 1 | Oct 17 to 23 | Introduction to SIR and SEIR |
-| 2 | Oct 24 to 30 | Build the virtual town |
-| 3 | Oct 31 to Nov 6 | Compare measles, influenza, and COVID 19 |
-| 4 | Nov 7 to 13 | Interactive sliders and charts |
-| 5 | Nov 14 to 20 | Machine learning |
-| 6 | Nov 21 to 27 | Testing and combining our work |
-| 7 | Nov 28 to Dec 4 | Final improvements, findings, and presentation |
-| 8 | Dec 5 to 9 | Practice and prepare for the showcase |
+| Week | Dates | Focus |
+|---|---|---|
+| 1 | Oct 17–23 | SIR and SEIR models |
+| 2 | Oct 24–30 | Virtual town simulation |
+| 3 | Oct 31–Nov 6 | Measles, influenza, and COVID-19 |
+| 4 | Nov 7–13 | Interactive sliders and charts |
+| 5 | Nov 14–20 | Machine learning |
+| 6 | Nov 21–27 | Testing and integration |
+| 7 | Nov 28–Dec 4 | Final improvements and presentation |
+| 8 | Dec 5–9 | Presentation practice |
 | Showcase | Dec 10 | Final presentation |
 
-These dates are our proposed plan. We'll adjust them as needed after our team meetings.
+Our goal is to complete the core project by December 5 and use the remaining days to prepare for the showcase.
 
-## Project directories
+## Repository Structure
 
-| Folder or file | Purpose |
-| :--- | :--- |
+| Directory | Contents |
+|---|---|
 | [assignments](assignments/) | Weekly assignments and instructions |
-| [learning](learning/) | Learning resources for each stage of the project, including coding, graphs, and modeling |
-| [team_contributions/final_assignments](team_contributions/final_assignments/) | Final weekly notebooks |
-| [team_contributions/written_explanations](team_contributions/written_explanations/) | Team members' written explanations |
-| [research](research/) | Research sources and modeling assumptions |
-| [results](results/) | Reviewed graphs and findings |
-| [meetings](meetings/) | Meeting notes and decisions |
-| [SUBMISSION_GUIDE.md](SUBMISSION_GUIDE.md) | How to submit work |
+| [learning](learning/) | Python, modeling, and research materials |
+| [team_contributions](team_contributions/) | Individual assignments and written submissions |
+| [research](research/) | Scientific sources and model assumptions |
+| [results](results/) | Simulation results, graphs, and findings |
+| [meetings](meetings/) | Meeting notes and project decisions |
 
+## Submitting Your Work
+
+You can submit your work using the GitHub website or Git commands.
+
+1. Create a separate branch for your assignment.
+2. Complete your assigned task and save your files.
+3. Commit and push your changes to your branch.
+4. Open a pull request to `main`.
+5. Wait for review before merging.
+
+If your assignment includes graphs, submit the code and generated images together.
+
+For detailed instructions, read the [Submission Guide](SUBMISSION_GUIDE.md).
+
+## Research and Documentation
+
+Our disease comparisons use research from the Centers for Disease Control and Prevention (CDC) and published scientific literature.
+
+We distinguish between values reported by sources, values calculated from research, and assumptions chosen for the simulation. We do not present simulated outcomes as real-world disease predictions.
+
+You can find the sources and supporting documentation in the [research directory](research/).
+
+## Final Goal
+
+By December 5, we aim to have a working disease simulation that allows us to compare three diseases, explore vaccination and isolation scenarios, visualize disease transmission, and evaluate basic machine learning models.
+
+We will present our results at the December 10 showcase.
