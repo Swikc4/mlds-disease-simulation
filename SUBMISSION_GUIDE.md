@@ -34,14 +34,7 @@ If you are starting a different week's assignment, make sure your current change
 - [learning](learning/) — learning notes and reference material.
 - [research](research/) — approved sources.
 
-Current notebooks:
-- Week 1: `assignments/Week_01_SIR_SEIR_Models.ipynb`
-- Week 2: `assignments/Week_02_Building _Towns.ipynb`
-- Week 3: `assignments/Week_03_Compare_Diseases.ipynb`
-
-Use the exact existing notebook filename, including spaces, if you work on it. Complete your assigned section and preserve everyone else's work. You only need a separate Markdown file if your role specifically asks for one. If needed, save it as `written_assignments/Your_Name/Week_03.md` (change the week number to match).
-
-## Option A: GitHub website (no Terminal needed)
+## Option A: GitHub website 
 
 ### Step 1: Select or create your branch
 
