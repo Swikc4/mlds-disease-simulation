@@ -2,6 +2,30 @@
 
 Use either the GitHub website or Terminal to submit your contribution. You do not need to use both.
 
+## Returning contributors
+
+If you have cloned this repository once, **do not clone it again**. Open your existing project folder and pull new changes when you need them.
+
+If you already created a branch for the assignment you are continuing, **do not create that branch again**. Switch to your existing branch and carry on. You only need a new branch when starting a separate assignment after your previous work has been submitted or merged. For a new week, start from the latest `main` so you do not accidentally resubmit old changes.
+
+On the GitHub website, simply select your existing branch using the branch selector.
+
+In Terminal, check your work first:
+
+```bash
+git status
+git branch
+```
+
+If you are continuing work on an existing branch, switch to it and pull its remote updates when available:
+
+```bash
+git switch your-existing-branch
+git pull origin your-existing-branch
+```
+
+If you are starting a different week's assignment, make sure your current changes are committed or saved before switching to `main`, then update `main` and create a new weekly branch.
+
 ## Where files belong
 
 - [assignments](assignments/) — the shared weekly Jupyter notebooks.
@@ -19,12 +43,12 @@ Use the exact existing notebook filename, including spaces, if you work on it. C
 
 ## Option A: GitHub website (no Terminal needed)
 
-### Step 1: Create your own branch
+### Step 1: Select or create your branch
 
 1. Sign in to [GitHub](https://github.com/) and open [our repository](https://github.com/Swikc4/mlds-disease-simulation).
-2. Above the file list, click the branch selector showing `main`.
-3. Type a branch name such as `jayden-week03`, then choose **Create branch from main**.
-4. Check that the selector shows your new branch before editing any files.
+2. Above the file list, open the branch selector. If you already have a branch for this assignment, select it — do not create it again.
+3. If this is a new assignment and you need a new branch, select `main`, type a name such as `jayden-week03`, then choose **Create branch from main**.
+4. Check that the selector shows the branch you intend to work on before editing any files.
 
 ### Step 2: Complete your assigned work
 
@@ -61,13 +85,15 @@ git clone https://github.com/Swikc4/mlds-disease-simulation.git
 cd mlds-disease-simulation
 ```
 
-If it is already on your computer, open Terminal inside that repository folder. Start a fresh branch for the week:
+If it is already on your computer, open Terminal inside that repository folder instead of cloning again. To start a **new week's assignment**, run:
 
 ```bash
 git switch main
 git pull origin main
 git switch -c yourname-week03
 ```
+
+If you already made a branch for **this same assignment**, use `git switch your-existing-branch` instead of `git switch -c`. Do not try to create the same branch twice. Use `git status` before switching so you do not lose track of uncommitted changes.
 
 Complete your assigned work and save the files. Check the changes before committing:
 
