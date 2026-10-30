@@ -31,7 +31,7 @@ All disease parameters will be documented using scientific references, calculati
 
 Our team consists of five contributors and one project leader. Responsibilities rotate weekly so everyone gains experience with research, programming, visualization, and testing.
 
-Each contributor works on a separate GitHub branch and submits a pull request for review. Approved contributions are combined into the final weekly Jupyter notebook.
+Each contributor works on a separate GitHub branch and submits a pull request for review. Approved contributions are combined into the shared weekly Jupyter notebook. Written contributions, when required, are kept in `written_assignments/`.
 
 ## Weekly Schedule
 
@@ -55,7 +55,7 @@ Our goal is to complete the core project by December 5 and use the remaining day
 |---|---|
 | [assignments](assignments/) | Weekly assignments and instructions |
 | [learning](learning/) | Python, modeling, and research materials |
-| [team_contributions](team_contributions/) | Individual assignments and written submissions |
+| [written_assignments](written_assignments/) | Individual written contributions and research notes, when assigned |
 | [research](research/) | Scientific sources and model assumptions |
 | [results](results/) | Simulation results, graphs, and findings |
 | [meetings](meetings/) | Meeting notes and project decisions |
