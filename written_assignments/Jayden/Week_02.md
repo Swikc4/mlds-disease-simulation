@@ -1,0 +1,7 @@
+# Jayden
+
+## Week 2 Assignment
+
+The town has 100 people total, and each person passes through four stages in one direction: Susceptible (S), Exposed (E), Infectious (I), or Recovered (R).  Day 0 starts with one person at the infectious stage, and each day the infectious individuals have 3 meetings with randomly chosen people. If the meeting is with a susceptible individual, a random number is drawn to decide whether the infection passes on, with a 15% chance per meeting. If the infection passes, the susceptible individual becomes exposed. After 5 exposed days the person becomes the individual becomes infectious, and after 10 infectious days the individual becomes recovered. After an individual is recovered, they cannot be infected again. 
+
+All of the inputs are tagged ASSUMPTIONS chosen for teaching: total people (N= 100), starting infectious (1), meetings per infectious person per day(3), infection chance per meeting (0.15), days before infectious (5), days infectious before recovering (10), and simulation duration (60 days). Later on in Week 3, these assumptions will be replaced with sourced numbers from the project sources. 
