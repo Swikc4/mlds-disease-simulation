@@ -76,16 +76,64 @@ If you only need to edit a Markdown file, open it on your branch, click the penc
 
 If GitHub reports a notebook conflict or warns that your upload would overwrite another teammate's work, ask the project leader to combine the changes.
 
-## Option B: Terminal
+## Option B: Terminal or Git Bash
 
-Clone the repository only if you have not already cloned it:
+### Step 1: First-time Git setup (only once)
+
+On Mac, open **Terminal** (Applications → Utilities → Terminal, or search with Spotlight). On Windows, install **Git for Windows** if necessary and open **Git Bash**. These are the apps where you type the commands below.
+
+Check that Git is installed:
+
+```bash
+git --version
+```
+
+If Git is not installed, install it from [git-scm.com](https://git-scm.com/downloads), then open Terminal or Git Bash again.
+
+Set the name and email associated with your Git commits, using your own details:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+
+Sign in to GitHub in your browser and accept the invitation to contribute to this repository. You do not need to connect your GitHub account merely to read or clone this public repository. When you push using HTTPS for the first time, Git may ask you to authenticate. Follow the browser sign-in flow offered by your Git credential manager. If Git requests a password directly, GitHub account passwords do not work for Git pushes; use an authorised credential manager or a personal access token instead. Never send your access token to anyone.
+
+### Step 2: Open the repository (do not clone twice)
+
+**If this is your first time downloading the repository:**
 
 ```bash
 git clone https://github.com/Swikc4/mlds-disease-simulation.git
 cd mlds-disease-simulation
 ```
 
-If it is already on your computer, open Terminal inside that repository folder instead of cloning again. To start a **new week's assignment**, run:
+**If you already cloned it:** Open your existing `mlds-disease-simulation` folder in Terminal or Git Bash. For example, if you are in its parent folder, run:
+
+```bash
+cd mlds-disease-simulation
+```
+
+Do **not** run `git clone` again just to get new work. Git remembers the connection to `origin` after cloning. Check where you are and which branch is active:
+
+```bash
+git status
+git branch
+git remote -v
+```
+
+### Step 3: Choose the correct branch
+
+**Continuing the same assignment:** If you already created a branch for it, do not create another one. First make sure any local changes are saved or committed, then:
+
+```bash
+git switch your-existing-branch
+git pull origin your-existing-branch
+```
+
+If the branch has never been pushed to GitHub, the pull command is not needed yet.
+
+**Starting a different assignment:** Once your earlier work is safely committed and submitted, update your local `main` and create a new branch for the new assignment:
 
 ```bash
 git switch main
@@ -93,30 +141,48 @@ git pull origin main
 git switch -c yourname-week03
 ```
 
-If you already made a branch for **this same assignment**, use `git switch your-existing-branch` instead of `git switch -c`. Do not try to create the same branch twice. Use `git status` before switching so you do not lose track of uncommitted changes.
+Replace `yourname-week03` with your name and week. **Use `git switch -c` only when creating a new branch.** If you already made that branch, use `git switch yourname-week03` instead.
 
-Complete your assigned work and save the files. Check the changes before committing:
+Do not switch branches or pull while you have unresolved merge conflicts. If Git warns about local changes or conflicts, stop and ask the project leader rather than discarding work.
+
+### Step 4: Complete and save your assigned work
+
+Open the weekly notebook in Jupyter, Colab or another notebook editor. Complete your own section, keep the original notebook filename, and save it. Use the organised directories described above.
+
+Check what changed:
 
 ```bash
 git status
-git add assignments/
 ```
 
-If you also changed an individual written file or added graphs, stage those specific files too, for example:
+Stage only the files you changed. For example:
+
+```bash
+git add "assignments/Week_03_Compare_Diseases.ipynb"
+```
+
+If your role also requires a written file or graph, stage those exact files too:
 
 ```bash
 git add written_assignments/Your_Name/Week_03.md
 git add results/your_graph.png
 ```
 
-Then commit and push your branch:
+Do not run these optional `git add` examples if those files do not exist.
+
+### Step 5: Commit, push and open a pull request
 
 ```bash
+git status
 git commit -m "Complete Week 3 contribution"
 git push -u origin yourname-week03
 ```
 
-Replace `yourname-week03` with your own branch name. Open a pull request to `main` on GitHub and wait for review.
+Replace the sample branch name with the one shown by `git branch --show-current`. On subsequent pushes of the same branch, `git push` is normally enough after the upstream has been set.
+
+Finally, open the repository's **Pull requests** tab on GitHub, choose **New pull request**, select `main` as the base and your branch as the compare branch, check the changed files, and submit it for review. The project leader merges approved contributions into `main`.
+
+To get the latest shared changes later, update local `main` with `git switch main` followed by `git pull origin main` after safely saving your own work. Your own working branch does not automatically receive the latest changes from `main`; ask the project leader if you need help incorporating them.
 
 ## Before submitting
 
