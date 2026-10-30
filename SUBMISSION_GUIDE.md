@@ -17,15 +17,40 @@ Current notebooks:
 
 Use the exact existing notebook filename, including spaces, if you work on it. Complete your assigned section and preserve everyone else's work. You only need a separate Markdown file if your role specifically asks for one. If needed, save it as `written_assignments/Your_Name/Week_03.md` (change the week number to match).
 
-## Option A: GitHub website
+## Option A: GitHub website (no Terminal needed)
 
-1. Open [the repository](https://github.com/Swikc4/mlds-disease-simulation) and create your own branch from the latest `main`, such as `jayden-week03`.
-2. Open the correct file under `assignments/` and complete only your assigned work. You may edit or upload your notebook using the same filename.
-3. If required, save your own Markdown explanation in `written_assignments/Your_Name/`. Put graph images in `results/`.
-4. Commit your changes to your branch, not `main`.
-5. Open a pull request with `main` as the base, check **Files changed**, and ask the project leader to review it. Do not merge it yourself.
+### Step 1: Create your own branch
 
-Notebook files may conflict if multiple teammates edit the same notebook. If that happens, ask the project leader to combine the changes rather than overwriting another person's work.
+1. Sign in to [GitHub](https://github.com/) and open [our repository](https://github.com/Swikc4/mlds-disease-simulation).
+2. Above the file list, click the branch selector showing `main`.
+3. Type a branch name such as `jayden-week03`, then choose **Create branch from main**.
+4. Check that the selector shows your new branch before editing any files.
+
+### Step 2: Complete your assigned work
+
+1. Open the `assignments/` folder and find the notebook for your week.
+2. Download the notebook if you need to use Jupyter, Colab or PyCharm to complete its Python cells. You cannot run notebook code on the GitHub website.
+3. Complete **only your assigned role** and save the whole notebook using its original filename.
+4. Return to your branch on GitHub. Open `assignments/`, choose **Add file → Upload files**, and upload the saved notebook. Make sure you are replacing the correct notebook on **your branch**, not on `main`.
+5. Enter a short commit message and select **Commit changes** to save it to your branch.
+
+If you only need to edit a Markdown file, open it on your branch, click the pencil icon, make your changes, then select **Commit changes**.
+
+### Step 3: Add any other required files
+
+1. If your role requires a separate written explanation, open `written_assignments/`, then your name's folder. Open or create `Week_03.md` (or the correct week number) and commit your changes.
+2. If you created a graph, open `results/` on your branch, select **Add file → Upload files**, upload the image, and commit it.
+3. Do not create an extra written assignment unless your role asks for one.
+
+### Step 4: Request review
+
+1. Open the **Pull requests** tab in the repository.
+2. Choose **New pull request** (or **Compare & pull request** if GitHub offers it).
+3. Check that **base** is `main` and **compare** is your branch.
+4. Select **Files changed** and make sure only your intended work is included.
+5. Choose **Create pull request**. The project leader will review and merge it into `main`; do not merge it yourself.
+
+If GitHub reports a notebook conflict or warns that your upload would overwrite another teammate's work, ask the project leader to combine the changes.
 
 ## Option B: Terminal
 
